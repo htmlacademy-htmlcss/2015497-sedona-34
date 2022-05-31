@@ -30,3 +30,11 @@ body {
   text-decoration: none;
   color: #000000;
 }
+
+.header-button {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #756157;
+}
