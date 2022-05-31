@@ -44,3 +44,11 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
+
+.slogan-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
