@@ -161,6 +161,12 @@ body {
   color: #000000;
 }
 
+.catalog-filter {
+  background-image: url("../images/filter-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
 .breadcrumbs-link {
   font-size: 16px;
   text-decoration: none;
