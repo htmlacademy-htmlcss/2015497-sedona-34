@@ -167,6 +167,13 @@ body {
   background-repeat: no-repeat;
 }
 
+.inner-header-title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+  color: #FFFFFF;
+}
+
 .breadcrumbs-link {
   font-size: 16px;
   text-decoration: none;
