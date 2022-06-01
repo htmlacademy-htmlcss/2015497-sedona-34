@@ -217,3 +217,7 @@ body {
   line-height: 36px;
   text-transform: uppercase;
  }
+
+ .select-control {
+  color: #333333;
+ }
