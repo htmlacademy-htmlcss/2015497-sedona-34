@@ -140,3 +140,13 @@ body {
   text-align: center;
   color: #FFFFFF;
 }
+
+.subscribe-button {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #82B3D3; /*фон для видимости текста*/
+}
