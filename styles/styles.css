@@ -150,3 +150,14 @@ body {
   color: #FFFFFF;
   background-color: #82B3D3; /*фон для видимости текста*/
 }
+
+.footer-address-phone {
+  font-style: normal;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
