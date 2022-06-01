@@ -106,3 +106,14 @@ body {
   text-align: center;
   color: #333333;
 }
+
+.search-button {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #756157; /*фон для видимости текста*/
+}
