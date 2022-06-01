@@ -99,3 +99,10 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+
+.search-discription {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+}
