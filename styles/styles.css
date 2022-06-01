@@ -180,3 +180,11 @@ body {
   color: #FFFFFF;
 }
 
+.catalog-filter-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
