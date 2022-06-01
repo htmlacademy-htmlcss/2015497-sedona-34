@@ -133,3 +133,10 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+
+.subscribe-discription {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+}
