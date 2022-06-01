@@ -210,3 +210,10 @@ body {
   color: #FFFFFF;
   background-color: transparent; /*убрал фон для видимости текста*/
  }
+
+ .catalog-title-result {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+ }
