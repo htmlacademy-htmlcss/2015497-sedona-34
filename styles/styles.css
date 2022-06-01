@@ -80,4 +80,14 @@ body {
 }
 
 .advantages-number-black {
-  color: #000000; 
+  color: #000000;
+}
+
+.advantages-discription {
+  text-align: center;
+  color: #333333;
+}
+
+.advantages-discription-white {
+  color: #FFFFFF;
+}
