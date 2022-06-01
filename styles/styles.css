@@ -259,3 +259,11 @@ body {
   color: #FFFFFF;
   background-color: #82B3D3; /*фон для видимости текста*/
  }
+
+ .rate-current {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+ }
