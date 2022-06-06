@@ -47,7 +47,6 @@ body {
 
 .slogan-title {
   font-size: 30px;
-  font-weight: 700;
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
@@ -62,7 +61,6 @@ body {
 
 .advantages-title {
   font-size: 24px;
-  font-weight: 700;
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
@@ -95,7 +93,6 @@ body {
 
 .search-title {
   font-size: 30px;
-  font-weight: 700;
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
@@ -127,7 +124,6 @@ body {
 
 .subscribe-title {
   font-size: 30px;
-  font-weight: 700;
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
@@ -169,7 +165,6 @@ body {
 
 .inner-header-title {
   font-size: 60px;
-  font-weight: 700;
   line-height: 78px;
   color: #FFFFFF;
 }
@@ -213,7 +208,6 @@ body {
 
  .catalog-title-result {
   font-size: 30px;
-  font-weight: 700;
   line-height: 36px;
   text-transform: uppercase;
  }
