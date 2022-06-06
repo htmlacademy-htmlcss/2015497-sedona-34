@@ -30,6 +30,11 @@ body {
   background-color: #E5E5E5;
 }
 
+.page-logo {
+  width: 139px;
+  margin-left: 70px;
+}
+
 .page-container {
   margin: 0 auto;
   flex-grow: 1;
