@@ -284,6 +284,11 @@ body {
   margin-left: 70px;
 }
 
+.footer-phone-number {
+  width: 331px;
+  margin-left: 249px;
+}
+
 .footer-address-phone {
   font-style: normal;
   font-size: 40px;
@@ -292,6 +297,11 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
+}
+
+.footer-site-logo {
+  width: 115px;
+  margin-left: 235px;
 }
 
 .catalog-filter {
