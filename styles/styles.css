@@ -119,6 +119,8 @@ body {
 .advantages-wrapper {
   display: flex;
   flex-direction: column;
+  background-color: #82B3D3;
+  color:#fff;
 }
 
 .advantages-photo {
@@ -135,18 +137,11 @@ body {
   text-transform: uppercase;
 }
 
-.advantages-title-images {
-  color: #FFFFFF;
-  background-color: #82B3D3;
-}
-
 .advantages-number {
   width: 230px;
   margin-left: 85px;
   margin-top: 30px;
   text-align: center;
-  color: #FFFFFF;
-  background-color: #82B3D3;
 }
 
 .advantages-number-black {
@@ -163,7 +158,6 @@ body {
 
 .advantages-discription-white {
   color: #FFFFFF;
-  background-color: #82B3D3; /*фон для видимости текста*/
 }
 
 .search-title {
