@@ -112,9 +112,15 @@ body {
   padding: 0;
 }
 
-.advantages-item {
+.advantages-item-images {
   display: flex;
   width: 100%;
+  height: 384px;
+}
+
+.advantages-item {
+  display: flex;
+  width: 400px;
   height: 384px;
 }
 
@@ -164,6 +170,14 @@ body {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
+}
+
+.advantages-title-top {
+  margin-top: 182px;
+}
+
+.advantages-title-bottom {
+   margin-top: 102px;
 }
 
 .advantages-number {
