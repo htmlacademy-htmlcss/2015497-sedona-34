@@ -83,6 +83,10 @@ body {
   background-repeat: no-repeat;
 }
 
+.welcome{
+  margin: 0 371px;
+}
+
 .slogan-title {
   font-size: 30px;
   line-height: 36px;
