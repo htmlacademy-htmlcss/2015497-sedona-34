@@ -216,6 +216,8 @@ body {
 }
 
 .search-discription {
+  width: 592px;
+  margin: 0 auto;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
