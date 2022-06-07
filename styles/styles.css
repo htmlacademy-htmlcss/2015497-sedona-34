@@ -111,6 +111,10 @@ body {
   flex-wrap: wrap;
 }
 
+.advantages-item {
+  width: 400px;
+}
+
 .advantages-title {
   font-size: 24px;
   line-height: 28px;
