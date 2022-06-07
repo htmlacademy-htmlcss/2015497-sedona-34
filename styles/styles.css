@@ -118,7 +118,7 @@ body {
   height: 384px;
 }
 
-.advantages-wrapper {
+.advantages-wrapper-images {
   display: flex;
   flex-direction: column;
   background-color: #82B3D3;
