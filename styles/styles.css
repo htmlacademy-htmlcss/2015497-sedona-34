@@ -112,12 +112,12 @@ body {
 }
 
 .advantages-item {
-  width: 400px;
+  display: flex;
+  width: 100%;
 }
 
 .advantages-wrapper {
   display: flex;
-  width: 100%;
 }
 
 .advantages-photo {
