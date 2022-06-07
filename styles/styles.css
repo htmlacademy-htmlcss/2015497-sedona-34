@@ -279,6 +279,11 @@ body {
   display: flex;
 }
 
+.footer-social {
+  width: 142px;
+  margin-left: 70px;
+}
+
 .footer-address-phone {
   font-style: normal;
   font-size: 40px;
