@@ -247,6 +247,8 @@ body {
 }
 
 .subscribe-title {
+  width: 404px;
+  margin: 0 auto;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
