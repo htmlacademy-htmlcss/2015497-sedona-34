@@ -118,11 +118,11 @@ body {
 
 .advantages-wrapper {
   display: flex;
+  flex-direction: column;
 }
 
 .advantages-photo {
   display: flex;
-  width: 100%;
 }
 
 .advantages-title {
