@@ -154,6 +154,9 @@ body {
 }
 
 .advantages-discription {
+  width: 230px;
+  margin-left: 85px;
+  margin-top: 30px;
   text-align: center;
   color: #333333;
 }
