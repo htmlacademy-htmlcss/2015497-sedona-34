@@ -141,6 +141,9 @@ body {
 }
 
 .advantages-number {
+  width: 230px;
+  margin-left: 85px;
+  margin-top: 30px;
   text-align: center;
   color: #FFFFFF;
   background-color: #82B3D3;
