@@ -403,6 +403,7 @@ body {
  .sort-wrapper {
    display: flex;
    width: 1060px;
+   margin-left: 72px;
  }
 
  .select-control {
