@@ -528,6 +528,10 @@ body {
    background-color: #82B3D3;
  }
 
+ .pagination-item-current {
+   background-color: #F2F2F2;
+ }
+
  .pagination-link {
   font-size: 20px;
   font-weight: 700;
