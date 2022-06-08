@@ -430,6 +430,16 @@ body {
    margin-top: 61px;
  }
 
+ .product-card {
+   width: 300px;
+   padding: 20px;
+ }
+
+ .product-card-title {
+   width: 300px;
+   margin-top: 16px;
+ }
+
  .select-control {
   color: #333333;
  }
