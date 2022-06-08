@@ -391,7 +391,7 @@ body {
   line-height: 20px;
   text-align: center;
   color: #FFFFFF;
-  background-color: transparent; /*убрал фон для видимости текста*/
+  background-color: transparent;
  }
 
  .catalog-title-result {
