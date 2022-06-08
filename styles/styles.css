@@ -338,6 +338,10 @@ body {
   width: 1060px;
 }
 
+.catalog-filter-group-checkbox {
+  width: 150px;
+}
+
 .catalog-filter-title {
   font-size: 20px;
   font-weight: 700;
