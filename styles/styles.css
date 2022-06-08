@@ -546,15 +546,17 @@ body {
   color: #FFFFFF;
  }
 
+ .select-control-amount {
+   width: 160px;
+   margin-left: auto;
+   color: #333333;
+ }
+
  .pagination-link-current {
    color: #000000 ;
  }
 
  .product-card-amount {
-  color: #333333;
- }
-
- .select-control-amount {
   color: #333333;
  }
 
