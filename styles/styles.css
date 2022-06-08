@@ -400,6 +400,11 @@ body {
   text-transform: uppercase;
  }
 
+ .sort-wrapper {
+   display: flex;
+   width: 1060px;
+ }
+
  .select-control {
   color: #333333;
  }
