@@ -406,6 +406,10 @@ body {
    margin-left: 72px;
  }
 
+ .catalog-title-result {
+   width: 338px;
+ }
+
  .select-control {
   color: #333333;
  }
