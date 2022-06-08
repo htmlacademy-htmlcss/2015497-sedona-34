@@ -420,6 +420,16 @@ body {
    margin-left: 78px;
  }
 
+ .product-list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   width: 1056px;
+   padding: 0;
+   margin-left: 73px;
+   margin-top: 61px;
+ }
+
  .select-control {
   color: #333333;
  }
