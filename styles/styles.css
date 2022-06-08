@@ -333,6 +333,11 @@ body {
   color: #FFFFFF;
 }
 
+.filter-form {
+  display: flex;
+  width: 1060px;
+}
+
 .catalog-filter-title {
   font-size: 20px;
   font-weight: 700;
