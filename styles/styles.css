@@ -348,6 +348,16 @@ body {
   width: 150px;
 }
 
+.catalog-filter-group-radio {
+  width: 146px;
+  margin-left: 70px;
+}
+
+.catalog-filter-group-range {
+  width: 288px;
+  margin-left: 175px;
+}
+
 .catalog-filter-title {
   font-size: 20px;
   font-weight: 700;
