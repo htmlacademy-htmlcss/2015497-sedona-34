@@ -415,6 +415,11 @@ body {
    margin-left: 191px;
  }
 
+ .button-sort-wrapper {
+   width: 160px;
+   margin-left: 78px;
+ }
+
  .select-control {
   color: #333333;
  }
