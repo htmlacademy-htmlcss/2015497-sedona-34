@@ -446,6 +446,18 @@ body {
    line-height: 28px;
  }
 
+ .product-card-price-wrapper {
+   margin-top: 16px;
+ }
+
+ .product-card-button-wrapper {
+   margin-top: 16px;
+ }
+
+ .rate-current-wrapper {
+   margin-top: 16px;
+ }
+
  .select-control {
   color: #333333;
  }
