@@ -560,6 +560,10 @@ body {
   color: #333333;
  }
 
+ .subscribe-inner {
+   background-image: none;
+ }
+
  .subscribe-title-inner {
    color: #000000;
  }
