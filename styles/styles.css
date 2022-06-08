@@ -431,13 +431,12 @@ body {
  }
 
  .product-card {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
    width: 300px;
+   height: 398px;
    padding: 20px;
- }
-
- .product-card-title {
-   width: 300px;
-   margin-top: 16px;
  }
 
  .select-control {
