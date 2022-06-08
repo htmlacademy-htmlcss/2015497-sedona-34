@@ -523,6 +523,11 @@ body {
    width: 400px;
  }
 
+ .pagination-item {
+   width: 60px;
+   background-color: #82B3D3;
+ }
+
  .pagination-link {
   font-size: 20px;
   font-weight: 700;
@@ -531,7 +536,6 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #FFFFFF;
-  background-color: #82B3D3; /*фон для видимости текста*/
  }
 
  .pagination-link-current {
