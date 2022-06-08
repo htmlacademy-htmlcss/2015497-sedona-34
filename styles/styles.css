@@ -515,6 +515,14 @@ body {
    margin-left: 73px;
  }
 
+ .pagination {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: space-between;
+   width: 400px;
+ }
+
  .pagination-link {
   font-size: 20px;
   font-weight: 700;
