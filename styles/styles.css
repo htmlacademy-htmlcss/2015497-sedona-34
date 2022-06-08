@@ -338,6 +338,12 @@ body {
   width: 1060px;
 }
 
+.catalog-filter-group {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
 .catalog-filter-group-checkbox {
   width: 150px;
 }
