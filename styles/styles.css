@@ -310,6 +310,11 @@ body {
   background-repeat: no-repeat;
 }
 
+.content-filter {
+  margin: 35px 70px 70px;
+  height: 298px;
+}
+
 .inner-header-title {
   width: 494px;
   font-size: 60px;
