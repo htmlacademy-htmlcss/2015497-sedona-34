@@ -312,10 +312,14 @@ body {
 
 .inner-header-title {
   width: 494px;
-  margin-left: 70px;
   font-size: 60px;
   line-height: 78px;
   color: #FFFFFF;
+}
+
+.breadcrumbs {
+  display: flex;
+  width: 110px;
 }
 
 .breadcrumbs-link {
