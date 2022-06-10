@@ -271,16 +271,8 @@ body {
 
 .page-footer {
   display: flex;
-}
-
-.footer-social {
-  width: 142px;
-  margin-left: 70px;
-}
-
-.footer-phone-number {
-  width: 331px;
-  margin-left: 249px;
+  justify-content: space-between;
+  padding: 40px 70px 30px;
 }
 
 .footer-address-phone {
@@ -291,11 +283,6 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
-}
-
-.footer-site-logo {
-  width: 115px;
-  margin-left: 235px;
 }
 
 .catalog-filter {
