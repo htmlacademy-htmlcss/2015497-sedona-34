@@ -74,7 +74,8 @@ body {
   line-height: 20px;
   text-transform: uppercase;
   color: #FFFFFF;
-  background-color: #756157; /*фон для видимости текста*/
+  background-color: #756157;
+  /*фон для видимости текста*/
 }
 
 .welcome {
@@ -266,7 +267,8 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
-  background-color: #82B3D3;/*фон для видимости текста*/
+  background-color: #82B3D3;
+  /*фон для видимости текста*/
 }
 
 .page-footer {
