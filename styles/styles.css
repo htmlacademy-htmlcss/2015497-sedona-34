@@ -228,8 +228,8 @@ body {
 
 /* Поиск отелей */
 .search-title {
-  width: 297px;
-  margin: 0 auto;
+  max-width: 297px;
+  margin: 91px auto 0;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
