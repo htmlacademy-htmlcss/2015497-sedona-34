@@ -58,7 +58,7 @@ body {
 
 .navigation {
   display: flex;
-  width: 891px;
+  max-width: 891px;
   margin: 0 auto;
 }
 
