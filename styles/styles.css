@@ -37,6 +37,7 @@ body {
   background-color: #fff;
 }
 
+/* Шапка */
 .page-logo {
   width: 139px;
   margin-left: 70px;
@@ -78,6 +79,7 @@ body {
   /*фон для видимости текста*/
 }
 
+/* Hero */
 .welcome {
   margin: 0 auto;
 }
@@ -101,6 +103,7 @@ body {
   color: #333333;
 }
 
+/* Преимущества */
 .advantages-list {
   display: flex;
   flex-wrap: wrap;
@@ -201,6 +204,7 @@ body {
   color: #FFFFFF;
 }
 
+/* Поиск отелей */
 .search-title {
   width: 297px;
   margin: 0 auto;
@@ -235,6 +239,7 @@ body {
   color: #FFFFFF;
 }
 
+/* Подписка */
 .subscribe {
   background-image: url("../images/subscribe-background.jpg");
   background-size: 100% auto;
@@ -271,6 +276,7 @@ body {
   /*фон для видимости текста*/
 }
 
+/* Подвал */
 .page-footer {
   display: flex;
   justify-content: space-between;
@@ -287,6 +293,7 @@ body {
   color: #000000;
 }
 
+/* Фильтр */
 .catalog-filter {
   background-image: url("../images/filter-background.jpg");
   background-size: 100% auto;
@@ -380,6 +387,7 @@ body {
   background-color: transparent;
 }
 
+/* Каталог */
 .catalog-title-result {
   font-size: 30px;
   line-height: 36px;
@@ -547,6 +555,7 @@ body {
   color: #333333;
 }
 
+/* Подписка inner */
 .subscribe-inner {
   background-image: none;
 }
