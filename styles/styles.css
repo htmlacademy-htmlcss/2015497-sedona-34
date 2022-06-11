@@ -246,8 +246,8 @@ body {
 }
 
 .search-button-wrapper {
-  width: 574px;
-  margin: auto;
+  max-width: 574px;
+  margin: 56px auto 93px;
   background-color: #756157;
 }
 
