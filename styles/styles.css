@@ -63,9 +63,12 @@ body {
 }
 
 .navigation-list {
+  display: flex;
+  flex-wrap: wrap;
   width: 445px;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .navigation-user {
