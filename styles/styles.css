@@ -116,9 +116,8 @@ body {
 }
 
 .advantages-call {
-  width: 655px;
-  margin: 0 auto;
-  padding: 0;
+  max-width: 655px;
+  margin: 31px auto 0;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
