@@ -448,6 +448,16 @@ body {
   margin-right: auto;
 }
 
+.button-sort {
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
+}
+
+.button-sort-wrapper a:last-child {
+  margin-right: 0;
+}
+
 .product-list {
   display: flex;
   flex-wrap: wrap;
@@ -456,12 +466,6 @@ body {
   padding: 0;
   margin-left: 73px;
   margin-top: 61px;
-}
-
-.button-sort {
-  width: 48px;
-  height: 48px;
-  margin-right: 8px;
 }
 
 .product-card {
