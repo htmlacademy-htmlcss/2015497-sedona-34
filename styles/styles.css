@@ -133,13 +133,13 @@ body {
 
 .advantages-item-images {
   display: flex;
-  width: 100%;
+  max-width: 100%;
   max-height: 384px;
 }
 
 .advantages-item {
   display: flex;
-  width: 400px;
+  max-width: 400px;
   max-height: 384px;
 }
 
@@ -162,7 +162,7 @@ body {
 }
 
 .advantages-title {
-  width: 230px;
+  min-width: 230px;
   margin-left: 85px;
   margin-right: 85px;
   margin-top: 92px;
