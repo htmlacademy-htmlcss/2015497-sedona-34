@@ -352,6 +352,10 @@ body {
   color: #FFFFFF;
 }
 
+.breadcrumbs-item:not(:last-child) {
+  margin-right: 25px;
+}
+
 .filter-form {
   display: flex;
   width: 1060px;
