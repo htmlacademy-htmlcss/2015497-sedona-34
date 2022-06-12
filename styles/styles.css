@@ -358,7 +358,8 @@ body {
 
 .filter-form {
   display: flex;
-  width: 1060px;
+  max-width: 1060px;
+  margin-top: 40px;
 }
 
 .catalog-filter-group {
