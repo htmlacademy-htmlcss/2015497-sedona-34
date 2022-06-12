@@ -320,6 +320,10 @@ body {
   margin-right: 27px;
 }
 
+.footer-social-item:last-child {
+  margin-right: 0;
+}
+
 .footer-address-phone {
   font-style: normal;
   font-size: 40px;
