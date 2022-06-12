@@ -433,8 +433,9 @@ body {
 }
 
 .catalog-title-result {
-  width: 338px;
+  min-width: 338px;
   margin: 0;
+  margin-right: 191px;
 }
 
 .select-control {
