@@ -326,8 +326,8 @@ body {
 }
 
 .content-filter {
-  margin: 35px 70px 70px;
-  height: 298px;
+  margin: 0 70px 70px;
+  min-height: 298px;
 }
 
 .inner-header-title {
