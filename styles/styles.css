@@ -439,8 +439,8 @@ body {
 }
 
 .select-control {
-  width: 290px;
-  margin-left: 191px;
+  min-width: 290px;
+  margin-right: 78px;
 }
 
 .button-sort-wrapper {
