@@ -148,6 +148,11 @@ body {
   flex-direction: column;
 }
 
+.advantages-wrapper-images {
+  background-color: #82B3D3;
+  color: #FFF;
+}
+
 .advantages-title {
   width: 230px;
   margin-left: 85px;
