@@ -134,13 +134,13 @@ body {
 .advantages-item-images {
   display: flex;
   width: 100%;
-  height: 384px;
+  max-height: 384px;
 }
 
 .advantages-item {
   display: flex;
   width: 400px;
-  height: 384px;
+  max-height: 384px;
 }
 
 .advantages-wrapper-images {
