@@ -281,8 +281,8 @@ body {
 }
 
 .subscribe-discription {
-  width: 475px;
-  margin: 0 auto;
+  max-width: 475px;
+  margin: 29px auto 0;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
