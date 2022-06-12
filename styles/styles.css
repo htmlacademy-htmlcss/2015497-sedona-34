@@ -428,8 +428,8 @@ body {
 
 .sort-wrapper {
   display: flex;
-  width: 1060px;
-  margin-left: 72px;
+  max-width: 1060px;
+  margin: 55px 72px 0;
 }
 
 .catalog-title-result {
