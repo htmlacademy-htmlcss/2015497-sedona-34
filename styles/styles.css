@@ -228,7 +228,8 @@ body {
 /* Поиск отелей */
 .search-title {
   max-width: 297px;
-  margin: 91px auto 0;
+  margin: 0 auto;
+  padding-top: 91px;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
@@ -246,7 +247,7 @@ body {
 
 .search-button-wrapper {
   max-width: 574px;
-  margin: 56px auto 0;
+  margin: 56px auto 93px;
   background-color: #756157;
 }
 
@@ -263,7 +264,6 @@ body {
 /* Подписка */
 .subscribe {
   min-height: 411px;
-  margin-top: 93px;
   background-image: url("../images/subscribe-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
