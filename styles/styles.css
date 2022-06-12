@@ -153,6 +153,14 @@ body {
   color: #FFF;
 }
 
+.advantages-wrapper-opacity-12 {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-wrapper-opacity-20 {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
 .advantages-title {
   width: 230px;
   margin-left: 85px;
