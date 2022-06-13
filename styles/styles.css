@@ -463,7 +463,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 1056px;
+  max-width: 1056px;
+  margin: 0;
   padding: 0;
   margin-left: 73px;
   margin-top: 61px;
