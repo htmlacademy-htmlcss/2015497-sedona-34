@@ -549,11 +549,12 @@ body {
 }
 
 .pagination {
-  margin: 0;
-  padding: 0;
   display: flex;
   justify-content: space-between;
-  width: 400px;
+  margin: 0;
+  padding: 0;
+  min-width: 400px;
+  list-style-type: none;
 }
 
 .pagination-item {
