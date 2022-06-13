@@ -4,6 +4,9 @@
       "*:Zone.Identifier": true,
       "node_modules/": true
   },
+  "editor.tokenColorCustomizations": {
+    "comments": "#0cf7d775" // change to any color you like
+  },
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.guides.bracketPairs": "active",
   "files.insertFinalNewline": true,
