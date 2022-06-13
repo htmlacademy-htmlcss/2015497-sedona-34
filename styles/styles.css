@@ -543,7 +543,7 @@ body {
 /* Пагинация */
 .pagination-wrapper {
   display: flex;
-  width: 1056px;
+  max-width: 1056px;
   margin-top: 30px;
   margin-left: 73px;
 }
