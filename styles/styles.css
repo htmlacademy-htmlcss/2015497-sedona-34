@@ -540,6 +540,7 @@ body {
   color: #333333;
 }
 
+/* Пагинация */
 .pagination-wrapper {
   display: flex;
   width: 1056px;
