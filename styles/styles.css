@@ -139,8 +139,8 @@ body {
 
 .advantages-item {
   display: flex;
-  max-width: 400px;
-  max-height: 384px;
+  width: 400px;
+  min-height: 384px;
 }
 
 .advantages-wrapper {
