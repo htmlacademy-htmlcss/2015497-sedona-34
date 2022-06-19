@@ -401,10 +401,24 @@ body {
   border: none;
 }
 
+.catalog-filter-title {
+  padding: 0;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
 .catalog-filter-list {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.catalog-filter-item:not(:last-child) {
+  margin-bottom: 15px;
 }
 
 .catalog-filter-group-checkbox {
@@ -424,16 +438,6 @@ body {
 .filter-button-wrapper {
   width: 161px;
   margin-left: 70px;
-}
-
-.catalog-filter-title {
-  padding: 0;
-  margin-bottom: 30px;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 26px;
-  text-transform: capitalize;
-  color: #FFFFFF;
 }
 
 .catalog-filter-title-range {
