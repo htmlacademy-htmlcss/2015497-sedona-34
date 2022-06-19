@@ -393,8 +393,7 @@ body {
 .filter-form {
   display: flex;
   max-width: 1060px;
-  margin-top: 40px;
-}
+ }
 
 .catalog-filter-group {
   margin: 0;
