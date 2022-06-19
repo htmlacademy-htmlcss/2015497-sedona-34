@@ -472,6 +472,9 @@ body {
 
 /* Сортировка */
 .catalog-title-result {
+  min-width: 338px;
+  margin: 0;
+  margin-right: 191px;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
@@ -481,12 +484,6 @@ body {
   display: flex;
   max-width: 1060px;
   margin: 0 72px 56px;
-}
-
-.catalog-title-result {
-  min-width: 338px;
-  margin: 0;
-  margin-right: 191px;
 }
 
 .select-control {
