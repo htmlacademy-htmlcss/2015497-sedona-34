@@ -279,12 +279,12 @@ body {
   min-height: 411px;
   background-image: url("../images/subscribe-background.jpg");
   background-size: 100% auto;
-  background-repeat: no-repeat;
+  background-repeat: round;
 }
 
 .subscribe-title {
   max-width: 404px;
-  margin: 0 auto;
+  margin: 0 auto 29px;
   padding-top: 94px;
   font-size: 30px;
   line-height: 36px;
@@ -295,7 +295,7 @@ body {
 
 .subscribe-discription {
   max-width: 475px;
-  margin: 29px auto 0;
+  margin: 0 auto 46px;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
