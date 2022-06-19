@@ -232,6 +232,10 @@ body {
 }
 
 /* Поиск отелей */
+.search-hotel {
+  margin-bottom: 93px;
+}
+
 .search-title {
   max-width: 297px;
   margin: 0 auto 29px;
