@@ -437,13 +437,13 @@ body {
   margin-right: 70px;
 }
 
+.catalog-filter-title-range {
+  margin-bottom: 34px;
+}
+
 .filter-button-wrapper {
   margin-top: 60px;
   width: 161px;
-}
-
-.catalog-filter-title-range {
-  margin-bottom: 34px;
 }
 
 .control-label {
