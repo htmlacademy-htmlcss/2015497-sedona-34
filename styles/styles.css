@@ -386,6 +386,7 @@ body {
   color: #FFFFFF;
 }
 
+/* Фильтр форма */
 .breadcrumbs-item:not(:last-child) {
   margin-right: 25px;
 }
