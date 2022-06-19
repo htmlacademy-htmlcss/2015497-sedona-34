@@ -107,7 +107,7 @@ body {
 
 /* Hero */
 .welcome {
-  margin: 0 auto;
+  margin: 0 auto 63px;
 }
 
 .welcome img {
@@ -116,7 +116,7 @@ body {
 
 .slogan-title {
   max-width: 620px;
-  margin: 63px auto 0;
+  margin: 0 auto 31px;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
