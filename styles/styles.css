@@ -401,6 +401,10 @@ body {
   border: none;
 }
 
+.catalog-filter-list {
+  list-style-type: none;
+}
+
 .catalog-filter-group-checkbox {
   width: 150px;
 }
