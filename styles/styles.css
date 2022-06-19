@@ -106,6 +106,10 @@ body {
 }
 
 /* Hero */
+.hero {
+  margin-bottom: 90px;
+}
+
 .welcome {
   margin: 0 auto 63px;
 }
@@ -125,7 +129,7 @@ body {
 
 .advantages-call {
   max-width: 655px;
-  margin: 31px auto 90px;
+  margin: 0 auto;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
