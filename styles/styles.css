@@ -359,8 +359,11 @@ body {
   padding: 35px 70px 70px;
 }
 
-.inner-header-title {
+.inner-header {
   max-width: 494px;
+}
+
+.inner-header-title {
   margin: 0;
   font-size: 60px;
   line-height: 78px;
