@@ -111,6 +111,10 @@ body {
   margin: 0 auto;
 }
 
+.welcome img {
+  display: block;
+}
+
 .slogan-title {
   max-width: 620px;
   margin: 63px auto 0;
