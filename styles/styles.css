@@ -365,6 +365,7 @@ body {
 
 .inner-header-title {
   margin: 0;
+  margin-bottom: 10px;
   font-size: 60px;
   line-height: 78px;
   color: #FFFFFF;
