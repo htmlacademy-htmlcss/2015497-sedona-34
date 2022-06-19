@@ -350,7 +350,7 @@ body {
 /* Фильтр */
 .catalog-filter {
   background-image: url("../images/filter-background.jpg");
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
