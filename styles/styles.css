@@ -350,6 +350,7 @@ body {
 /* Фильтр */
 .catalog-filter {
   min-height: 403px;
+  margin-bottom: 55px;
   background-image: url("../images/filter-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -479,7 +480,7 @@ body {
 .sort-wrapper {
   display: flex;
   max-width: 1060px;
-  margin: 55px 72px 0;
+  margin: 0 72px 56px;
 }
 
 .catalog-title-result {
