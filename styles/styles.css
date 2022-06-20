@@ -652,6 +652,7 @@ body {
 }
 
 .subscribe-title-inner {
+  padding: 0;
   color: #000000;
 }
 
