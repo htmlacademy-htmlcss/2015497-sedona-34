@@ -596,7 +596,6 @@ body {
 .pagination-wrapper {
   display: flex;
   max-width: 1056px;
-  margin-top: 30px;
   margin-left: 73px;
 }
 
