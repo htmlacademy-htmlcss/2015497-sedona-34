@@ -526,6 +526,10 @@ body {
   padding: 20px;
 }
 
+.product-card-link img {
+  display: block;
+}
+
 .product-card-title {
   margin: 0;
   padding-top: 16px;
