@@ -489,6 +489,7 @@ body {
 .select-control {
   min-width: 290px;
   margin-right: 78px;
+  color: #333333;
 }
 
 .button-sort-wrapper {
@@ -542,10 +543,6 @@ body {
    grid-template-columns: 1fr 1fr;
    column-gap: 20px;
    margin-top: 16px;
-}
-
-.select-control {
-  color: #333333;
 }
 
 .product-card-link {
