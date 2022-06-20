@@ -508,14 +508,14 @@ body {
 
 /* Каталог */
 .product-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 18px;
   max-width: 1056px;
   margin: 0;
   padding: 0;
   margin-left: 73px;
-  margin-bottom: 66px;
+  margin-bottom: 96px;
   list-style-type: none;
 }
 
