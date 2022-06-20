@@ -634,6 +634,7 @@ body {
 
 .product-card-amount {
   margin-left: 270px;
+  color: #333333;
 }
 
 .select-control-amount {
@@ -644,10 +645,6 @@ body {
 
 .pagination-link-current {
   color: #000000;
-}
-
-.product-card-amount {
-  color: #333333;
 }
 
 /* Подписка inner */
