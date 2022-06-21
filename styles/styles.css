@@ -49,10 +49,6 @@ body {
 }
 
 /* Шапка */
-.page-header {
-  margin-bottom: -5px;
-}
-
 .page-logo {
   display: flex;
   align-items: center;
