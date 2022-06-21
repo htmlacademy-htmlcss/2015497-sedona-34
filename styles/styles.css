@@ -537,7 +537,7 @@ body {
 .product-card-content-wrapper {
    display: grid;
    grid-template-columns: 1fr 1fr;
-   column-gap: 20px;
+   gap: 16px 20px;
    margin-top: 16px;
 }
 
