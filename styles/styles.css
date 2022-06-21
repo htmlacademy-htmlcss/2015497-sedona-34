@@ -391,7 +391,7 @@ body {
 .filter-form {
   display: flex;
   max-width: 1060px;
- }
+}
 
 .catalog-filter-group {
   margin: 0;
@@ -535,10 +535,10 @@ body {
 }
 
 .product-card-content-wrapper {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   gap: 16px 20px;
-   margin-top: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px 20px;
+  margin-top: 16px;
 }
 
 .product-card-link {
