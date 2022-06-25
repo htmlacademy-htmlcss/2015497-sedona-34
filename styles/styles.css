@@ -109,6 +109,20 @@ body {
   border-radius: 4px;
 }
 
+.header-button:hover {
+  background-color: #615048;
+}
+
+.header-button:focus {
+  background-color: #615048;
+  outline: none;
+}
+
+.header-button:active {
+  background-color: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .navigation-user .navigation-item:first-child .navigation-link {
   background-image: url(../images/icons/search.svg);
   background-repeat: no-repeat;
@@ -327,6 +341,7 @@ body {
 
 .search-button:focus {
   background-color: #615048;
+  outline: none;
 }
 
 .search-button-wrapper:active {
@@ -404,6 +419,11 @@ body {
 
 .footer-social-item:last-child {
   margin-right: 0;
+}
+
+.social-icon:focus,
+.social-icon:hover {
+  fill: #68A2CA;
 }
 
 .footer-address-phone {
