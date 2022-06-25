@@ -58,7 +58,7 @@ body {
   display: flex;
   max-width: 891px;
   margin: 0 70px;
-}
+ }
 
 .navigation-list {
   display: flex;
@@ -66,7 +66,7 @@ body {
   width: 445px;
   margin: 0;
   padding: 0;
-  margin-left: 239px;
+  margin-left: 169px;
   list-style-type: none;
 }
 
@@ -77,7 +77,7 @@ body {
 
 .navigation-link {
   display: block;
-  padding: 20px 17px;
+  padding: 19px 17px;
   font-size: 20px;
   font-weight: 700;
   line-height: 26px;
