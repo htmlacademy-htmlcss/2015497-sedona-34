@@ -86,10 +86,11 @@ body {
   color: #000000;
 }
 
-.navigation-user .navigation-link {
+.navigation-user .navigation-item .navigation-link {
   min-width: 20px;
   min-height: 22px;
   padding: 24px 12px;
+  /* что-то здесь не так */
 }
 
 .header-button {
