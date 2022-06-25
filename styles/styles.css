@@ -321,8 +321,11 @@ body {
   color: #FFFFFF;
 }
 
-.search-button-wrapper:hover,
-.search-button-wrapper:focus {
+.search-button-wrapper:hover {
+  background-color: #615048;
+}
+
+.search-button:focus {
   background-color: #615048;
 }
 
