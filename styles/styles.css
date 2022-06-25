@@ -193,6 +193,15 @@ body {
   color: #FFF;
 }
 
+.advantages-wrapper-food::before {
+  content: "";
+  background-image: url(../images/icons/food.svg);
+  background-repeat: no-repeat;
+  width: 74px;
+  height: 70px;
+  margin: 81px auto 0;
+}
+
 .advantages-wrapper-opacity-12 {
   background-color: rgba(131, 179, 211, 0.12);
 }
