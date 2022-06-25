@@ -58,7 +58,7 @@ body {
   display: flex;
   max-width: 891px;
   margin: 0 70px;
- }
+}
 
 .navigation-list {
   display: flex;
@@ -321,7 +321,7 @@ body {
   margin: 0 auto 93px;
   background-color: #756157;
   border-radius: 4px;
-  }
+}
 
 .search-button {
   display: flex;
