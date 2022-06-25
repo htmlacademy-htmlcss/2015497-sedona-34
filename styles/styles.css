@@ -421,9 +421,22 @@ body {
   margin-right: 0;
 }
 
-.social-icon:focus,
-.social-icon:hover svg {
+.social-icon {
+  fill: #83B3D3;
+}
+
+.social-icon:hover {
   fill: #68A2CA;
+}
+
+.social-icon:focus {
+  fill: #68A2CA;
+  outline: none;
+  /* Не работает */
+}
+
+.social-icon:active {
+  fill: rgba(104, 162, 202, 0.3);
 }
 
 .footer-address-phone {
