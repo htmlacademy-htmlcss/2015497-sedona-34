@@ -211,6 +211,15 @@ body {
   margin: 81px auto 0;
 }
 
+.advantages-wrapper-souvenirs::before {
+  content: "";
+  background-image: url(../images/icons/souvenirs.svg);
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 76px;
+  margin: 78px auto 0;
+}
+
 .advantages-wrapper-opacity-12 {
   background-color: rgba(131, 179, 211, 0.12);
 }
