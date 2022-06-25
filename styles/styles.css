@@ -422,7 +422,7 @@ body {
 }
 
 .social-icon:focus,
-.social-icon:hover {
+.social-icon:hover svg {
   fill: #68A2CA;
 }
 
