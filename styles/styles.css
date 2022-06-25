@@ -107,6 +107,13 @@ body {
   background-size: 18px 18px;
 }
 
+.navigation-user .navigation-item:nth-child(2) .navigation-link {
+  background-image: url(../images/icons/favorite.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 18px 17px;
+}
+
 /* Hero */
 .hero {
   margin-bottom: 90px;
