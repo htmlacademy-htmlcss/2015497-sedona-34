@@ -193,6 +193,15 @@ body {
   color: #FFF;
 }
 
+.advantages-wrapper-house::before {
+  content: "";
+  background-image: url(../images/icons/housing.svg);
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 72px;
+  margin: 80px auto 0;
+}
+
 .advantages-wrapper-food::before {
   content: "";
   background-image: url(../images/icons/food.svg);
