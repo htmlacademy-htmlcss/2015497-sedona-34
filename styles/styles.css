@@ -95,6 +95,7 @@ body {
 .header-button {
   display: block;
   padding: 9px 15px;
+  margin-top: 14px;
   min-width: 130px;
   min-height: 20px;
   font-size: 16px;
@@ -120,6 +121,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 18px 17px;
+  margin-right: 20px;
 }
 
 /* Hero */
