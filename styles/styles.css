@@ -57,7 +57,7 @@ body {
   position: relative;
   display: flex;
   max-width: 891px;
-  margin: 0 70px;
+  padding: 0 70px;
 }
 
 .navigation-list {
@@ -73,6 +73,10 @@ body {
 .navigation-user {
   max-width: 282px;
   margin-left: auto;
+}
+
+.navigation-user .navigation-item {
+  display: flex;
 }
 
 .navigation-link {
