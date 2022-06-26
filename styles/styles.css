@@ -80,6 +80,7 @@ body {
 }
 
 .navigation-link {
+  position: relative;
   display: block;
   padding: 20px 17px 19px;
   font-size: 20px;
@@ -88,6 +89,15 @@ body {
   text-align: center;
   text-decoration: none;
   color: #000000;
+}
+
+.navigation-link-current::before {
+  position: absolute;
+  content: "";
+  top: 65px;
+  width: 68px;
+  height: 2px;
+  background-color: #756257;
 }
 
 .navigation-user .navigation-link {
