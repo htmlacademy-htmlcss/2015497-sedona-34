@@ -424,6 +424,10 @@ body {
   margin-right: 0;
 }
 
+.social-link {
+  outline: none;
+}
+
 .social-icon {
   fill: #83B3D3;
 }
@@ -432,11 +436,9 @@ body {
   fill: #68A2CA;
 }
 
-.social-icon:focus {
+.social-link:focus {
   fill: #68A2CA;
-  outline: none;
-  /* Не работает */
-}
+ }
 
 .social-icon:active {
   fill: rgba(104, 162, 202, 0.3);
