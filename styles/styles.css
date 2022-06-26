@@ -63,7 +63,7 @@ body {
 .navigation-list {
   display: flex;
   flex-wrap: wrap;
-  width: 445px;
+  min-width: 445px;
   margin: 0;
   padding: 0;
   margin-left: 169px;
@@ -71,7 +71,7 @@ body {
 }
 
 .navigation-user {
-  max-width: 282px;
+  min-width: 264px;
   margin-left: auto;
 }
 
@@ -81,7 +81,7 @@ body {
 
 .navigation-link {
   display: block;
-  padding: 19px 17px;
+  padding: 20px 17px 19px;
   font-size: 20px;
   font-weight: 700;
   line-height: 26px;
