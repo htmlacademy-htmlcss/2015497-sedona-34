@@ -94,7 +94,7 @@ body {
 .navigation-link-current-index::before {
   position: absolute;
   content: "";
-  top: 65px;
+  top: 64px;
   width: 68px;
   height: 2px;
   background-color: #756257;
@@ -103,7 +103,7 @@ body {
 .navigation-link-current-inner::before {
   position: absolute;
   content: "";
-  top: 65px;
+  top: 64px;
   width: 93px;
   height: 2px;
   background-color: #756257;
