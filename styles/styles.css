@@ -436,7 +436,7 @@ body {
   fill: #68A2CA;
 }
 
-.social-link:focus {
+.social-link:focus svg {
   fill: #68A2CA;
  }
 
