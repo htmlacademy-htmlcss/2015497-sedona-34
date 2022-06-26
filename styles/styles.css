@@ -487,6 +487,26 @@ body {
   color: rgba(117, 97, 87, 0.3);
 }
 
+.footer-site-logo-link {
+  outline: none;
+}
+
+.footer-logo {
+  fill: #000000;
+}
+
+.footer-site-logo-link:focus svg {
+  fill: #756157;
+}
+
+.footer-logo:hover {
+  fill: #756157;
+}
+
+.footer-site-logo-link:active svg {
+  fill: rgba(117, 97, 87, 0.3);
+}
+
 /* Фильтр */
 .catalog-filter {
   min-height: 403px;
