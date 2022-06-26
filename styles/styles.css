@@ -146,17 +146,19 @@ body {
   margin-right: 20px;
 }
 
-.navigation-item-favorite .navigation-link:after {
+.favorite-counter {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 15px;
   left: 24px;
+  width: 20px;
+  height: 20px;
   margin: auto;
-  content: "12";
   font-size: 10px;
   font-weight: 400;
   line-height: 13px;
-  width: 20px;
-  height: 20px;
   background-color: #7DB54F;
   border-radius: 50%;
   color: #FFF;
