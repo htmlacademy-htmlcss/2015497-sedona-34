@@ -452,6 +452,16 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
+  outline: none;
+}
+
+.footer-address-phone:hover,
+.footer-address-phone:focus {
+  color: #756157;
+}
+
+.footer-address-phone:active {
+  color: rgba(117, 97, 87, 0.3);
 }
 
 /* Фильтр */
