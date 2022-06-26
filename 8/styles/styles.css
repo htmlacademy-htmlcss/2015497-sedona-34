@@ -57,8 +57,8 @@ body {
   position: relative;
   display: flex;
   max-width: 891px;
-  margin: 0 70px;
- }
+  padding: 0 70px;
+}
 
 .navigation-list {
   display: flex;
@@ -75,6 +75,10 @@ body {
   margin-left: auto;
 }
 
+.navigation-user .navigation-item {
+  display: flex;
+}
+
 .navigation-link {
   display: block;
   padding: 19px 17px;
@@ -88,7 +92,6 @@ body {
 
 .navigation-user .navigation-link {
   min-width: 20px;
-  min-height: 22px;
   padding: 24px 12px;
 }
 
@@ -320,7 +323,7 @@ body {
   margin: 0 auto 93px;
   background-color: #756157;
   border-radius: 4px;
-  }
+}
 
 .search-button {
   display: flex;
@@ -421,9 +424,24 @@ body {
   margin-right: 0;
 }
 
-.social-icon:focus,
-.social-icon:hover svg {
+.social-link {
+  outline: none;
+}
+
+.social-icon {
+  fill: #83B3D3;
+}
+
+.social-icon:hover {
   fill: #68A2CA;
+}
+
+.social-link:focus svg {
+  fill: #68A2CA;
+ }
+
+.social-icon:active {
+  fill: rgba(104, 162, 202, 0.3);
 }
 
 .footer-address-phone {
@@ -434,6 +452,16 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
+  outline: none;
+}
+
+.footer-address-phone:hover,
+.footer-address-phone:focus {
+  color: #756157;
+}
+
+.footer-address-phone:active {
+  color: rgba(117, 97, 87, 0.3);
 }
 
 /* Фильтр */
