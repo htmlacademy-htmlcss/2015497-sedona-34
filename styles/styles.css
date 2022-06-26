@@ -100,6 +100,15 @@ body {
   background-color: #756257;
 }
 
+.navigation-link-current-inner::before {
+  position: absolute;
+  content: "";
+  top: 65px;
+  width: 93px;
+  height: 2px;
+  background-color: #756257;
+}
+
 .navigation-user .navigation-link {
   min-width: 20px;
   padding: 24px 12px;
