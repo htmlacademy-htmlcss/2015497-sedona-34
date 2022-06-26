@@ -91,7 +91,7 @@ body {
   color: #000000;
 }
 
-.navigation-link-current::before {
+.navigation-link-current-index::before {
   position: absolute;
   content: "";
   top: 65px;
