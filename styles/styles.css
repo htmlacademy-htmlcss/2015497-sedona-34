@@ -126,6 +126,10 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.header-button:disabled {
+  background-color: #E5E5E5;
+}
+
 .navigation-user .navigation-item:first-child .navigation-link {
   background-image: url(../images/icons/search.svg);
   background-repeat: no-repeat;
