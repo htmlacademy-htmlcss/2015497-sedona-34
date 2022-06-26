@@ -56,7 +56,7 @@ body {
 .navigation {
   position: relative;
   display: flex;
-  max-width: 891px;
+  max-width: 1200px;
   padding: 0 70px;
 }
 
