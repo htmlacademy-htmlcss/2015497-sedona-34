@@ -51,6 +51,7 @@ body {
 /* Шапка */
 .page-logo {
   position: absolute;
+  z-index: 1;
 }
 
 .navigation {
@@ -93,6 +94,7 @@ body {
 
 .navigation-link-current-index::before {
   position: absolute;
+  z-index: 1;
   content: "";
   top: 64px;
   width: 68px;
