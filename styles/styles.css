@@ -492,7 +492,7 @@ body {
 
 .social-link:focus svg {
   fill: #68A2CA;
- }
+}
 
 .social-link:active svg {
   fill: rgba(104, 162, 202, 0.3);
@@ -771,33 +771,33 @@ body {
   border-radius: 4px;
   appearance: none;
   outline: none;
- }
+}
 
- .sort-wrapper svg {
+.sort-wrapper svg {
   position: absolute;
   left: 787px;
   width: 12px;
   height: 7px;
   fill: #000000;
- }
+}
 
- .select-control:hover,
- .select-control:focus {
+.select-control:hover,
+.select-control:focus {
   border: 2px solid #68A2CA;
- }
+}
 
- .select-control:active {
+.select-control:active {
   border: 2px solid #3F5E72;
- }
+}
 
- .select-control:disabled {
+.select-control:disabled {
   border: 2px solid rgba(0, 0, 0, 0.3);
   color: rgba(0, 0, 0, 0.3);
- }
+}
 
- .select-control:disabled + svg {
+.select-control:disabled + svg {
   fill: rgba(0, 0, 0, 0.3);
- }
+}
 
 .button-sort-wrapper {
   max-width: 160px;
