@@ -572,6 +572,10 @@ body {
   list-style-type: none;
 }
 
+.breadcrumbs-item {
+  position: relative;
+}
+
 .breadcrumbs-link {
   font-size: 16px;
   text-decoration: none;
@@ -601,6 +605,26 @@ body {
 
 .breadcrumbs-item:not(:last-child) {
   margin-right: 25px;
+}
+
+.breadcrumbs-item:first-child::after {
+  position: absolute;
+  top: 8px;
+  left: 22px;
+  content: "";
+  width: 6px;
+  height: 9px;
+  background-image: url(../images/icons/arrow-breadcrumbs.svg);
+}
+
+.breadcrumbs-item:not(:first-child):not(:last-child)::after {
+  position: absolute;
+  top: 8px;
+  left: 80px;
+  content: "";
+  width: 6px;
+  height: 9px;
+  background-image: url(../images/icons/arrow-breadcrumbs.svg);
 }
 
 /* Фильтр форма */
