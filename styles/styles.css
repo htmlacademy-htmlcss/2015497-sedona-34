@@ -679,6 +679,10 @@ body {
 }
 
 .filter-button-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 60px;
   width: 161px;
 }
@@ -688,6 +692,10 @@ body {
 }
 
 .filter-button {
+  margin-bottom: 20px;
+  padding: 14px 15px;
+  width: 160px;
+  min-height: 48px;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -695,15 +703,16 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   background-color: #82B3D3;
+  border: none;
+  border-radius: 4px;
 }
 
 .filter-button-reset {
   font-size: 16px;
-  font-weight: 400;
   line-height: 20px;
-  text-align: center;
   color: #FFFFFF;
   background-color: transparent;
+  border: none;
 }
 
 /* Сортировка */
