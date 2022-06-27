@@ -756,15 +756,21 @@ body {
 
 .sort-wrapper {
   display: flex;
+  align-items: center;
   max-width: 1060px;
   margin: 0 72px 56px;
 }
 
 .select-control {
+  margin: 0;
+  padding: 14px 129px 14px 20px;
   min-width: 290px;
   margin-right: 78px;
   color: #333333;
-}
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  appearance: none;
+ }
 
 .button-sort-wrapper {
   max-width: 160px;
