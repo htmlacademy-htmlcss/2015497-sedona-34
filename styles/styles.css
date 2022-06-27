@@ -755,6 +755,7 @@ body {
 }
 
 .sort-wrapper {
+  position: relative;
   display: flex;
   align-items: center;
   max-width: 1060px;
@@ -770,6 +771,14 @@ body {
   border: 2px solid #E5E5E5;
   border-radius: 4px;
   appearance: none;
+ }
+
+ .sort-wrapper svg {
+  position: absolute;
+  left: 787px;
+  width: 12px;
+  height: 7px;
+  fill: #000000;
  }
 
 .button-sort-wrapper {
