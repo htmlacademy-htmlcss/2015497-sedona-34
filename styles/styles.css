@@ -771,6 +771,7 @@ body {
   border: 2px solid #E5E5E5;
   border-radius: 4px;
   appearance: none;
+  outline: none;
  }
 
  .sort-wrapper svg {
@@ -779,6 +780,24 @@ body {
   width: 12px;
   height: 7px;
   fill: #000000;
+ }
+
+ .select-control:hover,
+ .select-control:focus {
+  border: 2px solid #68A2CA;
+ }
+
+ .select-control:active {
+  border: 2px solid #3F5E72;
+ }
+
+ .select-control:disabled {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
+ }
+
+ .select-control:disabled + svg {
+  fill: rgba(0, 0, 0, 0.3);
  }
 
 .button-sort-wrapper {
