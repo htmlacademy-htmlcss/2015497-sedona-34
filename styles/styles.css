@@ -730,6 +730,20 @@ body {
   outline: none;
 }
 
+.filter-button-reset:hover {
+  opacity: 0.8;
+}
+
+.filter-button-reset:active {
+  opacity: 0.3;
+  outline: none;
+}
+
+.filter-button-reset:focus {
+  outline: 3px solid #83B3D3;
+  border-radius: 4px;
+}
+
 /* Сортировка */
 .catalog-title-result {
   min-width: 338px;
