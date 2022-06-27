@@ -189,7 +189,17 @@ body {
 }
 
 .welcome {
+  position: relative;
   margin: 0 auto 63px;
+}
+
+.welcome::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  width: 1200px;
+  height: 57px;
+  background-image: url(../images/divider-index.svg);
 }
 
 .welcome img {
