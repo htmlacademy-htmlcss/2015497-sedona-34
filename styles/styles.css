@@ -994,6 +994,7 @@ body {
 
 /* Пагинация */
 .pagination-wrapper {
+  position: relative;
   display: flex;
   max-width: 1056px;
   margin-left: 73px;
@@ -1059,6 +1060,15 @@ body {
   color: #333333;
   appearance: none;
   outline: none;
+}
+
+.pagination-wrapper svg {
+  position: absolute;
+  top: 50%;
+  right: 26px;
+  width: 12px;
+  height: 7px;
+  fill: #000000;
 }
 
 .select-control-amount:hover,
