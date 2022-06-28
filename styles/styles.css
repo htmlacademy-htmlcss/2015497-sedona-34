@@ -809,6 +809,8 @@ body {
 }
 
 .button-sort {
+  display: flex;
+  box-sizing: border-box;
   padding: 17px 16px;
   margin-right: 8px;
   width: 48px;
@@ -817,7 +819,18 @@ body {
   border-radius: 4px;
 }
 
+.button-sort-table {
+  background: url(../images/icons/sort-table.svg) no-repeat 50% 50%;
+  border-color: #000000;
+}
 
+.button-sort-slideshow {
+  background: url(../images/icons/sort-slideshow.svg) no-repeat 50% 50%;
+}
+
+.button-sort-list {
+  background: url(../images/icons/sort-list.svg) no-repeat 50% 50%;
+}
 
 /* Каталог */
 .product-list {
