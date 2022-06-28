@@ -812,7 +812,6 @@ body {
 .button-sort {
   display: flex;
   box-sizing: border-box;
-  padding: 17px 16px;
   margin-right: 8px;
   width: 48px;
   height: 48px;
