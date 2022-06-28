@@ -800,6 +800,7 @@ body {
 }
 
 .button-sort-wrapper {
+  display: flex;
   max-width: 160px;
   margin-right: auto;
 }
