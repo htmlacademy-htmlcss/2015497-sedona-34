@@ -804,15 +804,20 @@ body {
   margin-right: auto;
 }
 
-.button-sort {
-  width: 48px;
-  height: 48px;
-  margin-right: 8px;
-}
-
 .button-sort-wrapper a:last-child {
   margin-right: 0;
 }
+
+.button-sort {
+  padding: 17px 16px;
+  margin-right: 8px;
+  width: 48px;
+  height: 48px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+}
+
+
 
 /* Каталог */
 .product-list {
