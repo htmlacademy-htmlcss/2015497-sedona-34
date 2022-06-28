@@ -1011,10 +1011,22 @@ body {
 
 .pagination-item {
   background-color: #82B3D3;
+  border-radius: 4px;
 }
 
 .pagination-item-current {
   background-color: #F2F2F2;
+  border-radius: 4px;
+}
+
+.pagination-link:not(span):hover,
+.pagination-link:not(span):focus {
+  background-color: #68A2CA;
+}
+
+.pagination-link:not(span):active {
+  background-color: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .pagination-link {
@@ -1029,6 +1041,8 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #FFFFFF;
+  border-radius: 4px;
+  outline: none;
 }
 
 .product-card-amount {
