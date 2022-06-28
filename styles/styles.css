@@ -844,6 +844,7 @@ body {
 
 /* Каталог */
 .product-list {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 18px;
@@ -854,6 +855,14 @@ body {
   margin-bottom: 96px;
   list-style-type: none;
 }
+
+.product-list::after {
+  position: absolute;
+  top: 942px;
+  content: "";
+  width: 1055px;
+  border: 1px solid #E6E6E6;
+ }
 
 .product-card {
   display: flex;
