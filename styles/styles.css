@@ -817,6 +817,7 @@ body {
   height: 48px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
+  outline: none;
 }
 
 .button-sort-table {
@@ -830,6 +831,15 @@ body {
 
 .button-sort-list {
   background: url(../images/icons/sort-list.svg) no-repeat 50% 50%;
+}
+
+.button-sort:focus {
+  border-color: #68A2CA;
+}
+
+.button-sort:hover,
+.button-sort:active {
+  border-color: #000000;
 }
 
 /* Каталог */
