@@ -969,6 +969,20 @@ body {
   border-radius: 4px;
 }
 
+.stars {
+  width: 89px;
+  height: 33px;
+  background: url(../images/icons/star.svg) space 50% 50%;
+  }
+
+  .stars-three {
+    width: 66px;
+  }
+
+  .stars-two {
+    width: 42px;
+  }
+
 /* Пагинация */
 .pagination-wrapper {
   display: flex;
