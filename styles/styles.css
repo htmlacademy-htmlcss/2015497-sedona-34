@@ -116,6 +116,12 @@ body {
   padding: 24px 12px;
 }
 
+.search-icon,
+.favorite-icon {
+  display: block;
+  box-sizing: border-box;
+}
+
 .header-button {
   display: block;
   padding: 9px 15px;
