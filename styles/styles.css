@@ -157,10 +157,6 @@ body {
 
 .navigation-item-favorite .navigation-link {
   position: relative;
-  background-image: url(../images/icons/favorite.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 18px 17px;
   margin-right: 20px;
 }
 
