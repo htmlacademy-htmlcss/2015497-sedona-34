@@ -586,20 +586,20 @@ body {
   margin-right: 25px;
 }
 
-.breadcrumbs-item:first-child::after {
+.breadcrumbs-item:not(:last-child)::after {
   position: absolute;
   top: 8px;
-  left: 22px;
+  left: 80px;
   content: "";
   width: 6px;
   height: 9px;
   background-image: url(../images/icons/arrow-breadcrumbs.svg);
 }
 
-.breadcrumbs-item:not(:first-child):not(:last-child)::after {
+.breadcrumbs-item:first-child::after {
   position: absolute;
   top: 8px;
-  left: 80px;
+  left: 22px;
   content: "";
   width: 6px;
   height: 9px;
