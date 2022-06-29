@@ -235,7 +235,6 @@ body {
 
 .advantages-item {
   display: flex;
-  /* padding: 92px 85px; */
   width: 400px;
   min-height: 384px;
 }
@@ -262,9 +261,17 @@ body {
 
 .advantages-wrapper {
   display: flex;
-  margin: 92px 85px;
+  padding: 92px 85px;
   flex-direction: column;
   align-items: center;
+}
+
+.advantages-wrapper-top {
+  padding-top: 80px;
+}
+
+.advantages-wrapper-bottom {
+  padding-top: 103px;
 }
 
 .advantages-icon {
