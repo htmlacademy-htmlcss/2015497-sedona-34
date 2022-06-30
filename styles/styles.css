@@ -92,21 +92,13 @@ body {
   color: #000000;
 }
 
-.navigation-link-current-index::before {
+.navigation-current-link::after {
   position: absolute;
   z-index: 1;
   content: "";
-  top: 64px;
-  width: 68px;
-  height: 2px;
-  background-color: #756257;
-}
-
-.navigation-link-current-inner::before {
-  position: absolute;
-  content: "";
-  top: 64px;
-  width: 93px;
+  bottom: -2px;
+  left: 17px;
+  width: calc(100% - 17px * 2);
   height: 2px;
   background-color: #756257;
 }
