@@ -405,8 +405,8 @@ body {
 }
 
 .field {
-  /* flex-grow: 1; */
-  padding: 20px 491px 19px 22px;
+  flex-grow: 1;
+  padding: 20px 391px 19px 22px;
   font: inherit;
   border: none;
   border-radius: 10px 0 0 10px;
@@ -415,12 +415,11 @@ body {
 }
 
 .subscribe-button {
-  flex-grow: 1;
   padding: 12px 15px;
-  width: 200px;
   border: none;
   border-radius: 0 10px 10px 0;
   cursor: pointer;
+  outline: none;
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
@@ -428,6 +427,21 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   background-color: #82B3D3;
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: #68A2CA;
+}
+
+.subscribe-button:active {
+  background-color: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.subscribe-button:disabled {
+  background-color: #E5E5E5;
+  cursor: auto;
 }
 
 /* Подвал */
