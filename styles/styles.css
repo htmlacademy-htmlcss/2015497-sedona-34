@@ -710,7 +710,6 @@ body {
 }
 
 .sort-wrapper {
-  position: relative;
   display: flex;
   align-items: center;
   max-width: 1060px;
@@ -726,15 +725,9 @@ body {
   border-radius: 4px;
   appearance: none;
   outline: none;
+  background: url(../images/icons/arrow-select.svg) no-repeat 258px 50%;
 }
 
-.sort-wrapper svg {
-  position: absolute;
-  left: 787px;
-  width: 12px;
-  height: 7px;
-  fill: #000000;
-}
 
 .select-control:hover,
 .select-control:focus {
@@ -747,11 +740,7 @@ body {
 
 .select-control:disabled {
   border: 2px solid rgba(0, 0, 0, 0.3);
-  color: rgba(0, 0, 0, 0.3);
-}
-
-.select-control:disabled + svg {
-  fill: rgba(0, 0, 0, 0.3);
+  opacity: 0.3;
 }
 
 .button-sort-wrapper {
