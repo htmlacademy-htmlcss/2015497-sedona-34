@@ -98,7 +98,7 @@ body {
   content: "";
   bottom: -2px;
   left: 17px;
-  width: calc(100% - 17px * 2);
+  width: calc(100% - 34px);
   height: 2px;
   background-color: #756257;
 }
