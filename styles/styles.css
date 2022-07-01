@@ -1135,3 +1135,18 @@ body {
 .modal-close-button::before {
   transform: rotate(-45deg);
 }
+
+.modal-close-button:hover {
+  background-color: #E6E6E6;
+}
+
+.modal-close-button:focus {
+  background-color: #F2F2F2;
+  outline: 3px solid #83B3D3;
+}
+
+.modal-close-button:active {
+  background-color: #E6E6E6;
+  outline: none;
+  opacity: 0.3;
+}
