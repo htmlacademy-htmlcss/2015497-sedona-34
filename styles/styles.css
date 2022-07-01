@@ -1237,17 +1237,44 @@ body {
   outline: 2px solid #000000;
 }
 
+/* Отрегулировать вертикальные отступы */
+/* Cчетчики    */
+.modal-lable-adult {
+  margin-top: 10px;
+  margin-right: 64px;
+  margin-bottom: 0;
+  height: 26px;
+}
 
-/* Cчетчики */
+.modal-lable-child {
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-bottom: 0;
+}
+
 .item-counter-wrapper {
   display: flex;
-  width: 133px;
+  margin-right: 56px;
+  min-width: 133px;
   height: 50px;
-  border-radius: 4px;
   background-color: #F2F2F2;
 }
 
+.button-counter {
+  width: calc(100%/3);
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
 
+.button-counter-minus {
+  border-radius: 4px 0 0 4px;
+}
+
+.counter-result {
+  width: calc(100%/3);
+  border: none;
+}
 
 
 
