@@ -1092,6 +1092,7 @@ body {
 
 .modal {
   position: relative;
+  box-sizing: border-box;
   margin: auto;
   padding: 62px 70px 70px;
   width: 715px;
@@ -1178,7 +1179,7 @@ body {
 
 .modal-date {
   box-sizing: border-box;
-  width: 420px;
+  width: 416px;
   margin-left: 42px;
   padding: 15px 270px 14px 19px;
   border: none;
@@ -1199,6 +1200,7 @@ body {
   color: #000;
 }
 
+/* Подписи к полям формы */
 .modal::before {
   position: absolute;
   content: "Мы не можем отправить вас в прошлое.";
@@ -1219,6 +1221,7 @@ body {
   color: #333;
 }
 
+/* Состояние полей формы */
 .modal-date:hover {
   background-color: #E6E6E6;
 }
