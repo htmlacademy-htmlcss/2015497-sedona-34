@@ -1094,13 +1094,10 @@ body {
   position: relative;
   margin: auto;
   padding: 62px 70px 70px;
+  width: 715px;
   background-color: #fff;
   border-radius: 30px;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
-}
-
-.modal-search {
-  width: 715px;
 }
 
 .modal-close-button {
@@ -1200,6 +1197,26 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #000;
+}
+
+.modal::before {
+  position: absolute;
+  content: "Мы не можем отправить вас в прошлое.";
+  top: 211px;
+  left: 227px;
+  width: 420px;
+  font-size: 16px;
+  color: #FF5757;
+}
+
+.modal::after {
+  position: absolute;
+  content: "На эти даты есть свободные номера. Пока есть.";
+  top: 301px;
+  left: 227px;
+  width: 420px;
+  font-size: 16px;
+  color: #333;
 }
 
 .modal-date:hover {
