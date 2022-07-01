@@ -1150,3 +1150,10 @@ body {
   outline: none;
   opacity: 0.3;
 }
+
+.modal-title {
+  padding-bottom: 63px;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
