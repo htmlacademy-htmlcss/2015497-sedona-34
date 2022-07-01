@@ -1165,8 +1165,7 @@ body {
   line-height: 26px;
 }
 
-/* ================ */
-/* Поля формы */
+/* Поля формы модального окна*/
 .modal-date {
   box-sizing: border-box;
   width: 420px;
