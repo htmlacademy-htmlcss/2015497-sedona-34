@@ -1187,7 +1187,7 @@ body {
   border: none;
   outline: none;
   border-radius: 4px;
-  background-color: #F2F2F2;
+  background: url(../images/icons/calendar-modal.svg) no-repeat 386px 50% #F2F2F2;
 }
 
 .departure-modal-date {
