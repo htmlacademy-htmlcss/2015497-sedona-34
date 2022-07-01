@@ -1166,6 +1166,19 @@ body {
 }
 
 /* Поля формы модального окна*/
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  }
+
+.modal-lable {
+  margin-bottom: 40px;
+}
+
+.modal-counter {
+  margin-bottom: 40px;
+}
+
 .modal-date {
   box-sizing: border-box;
   width: 420px;
