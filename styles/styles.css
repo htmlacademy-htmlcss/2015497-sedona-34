@@ -1181,3 +1181,18 @@ body {
   text-transform: uppercase;
   color: #FFF;
 }
+
+.modal-button:hover {
+  background-color: #68A2CA;
+}
+
+.modal-button:focus {
+  background-color: #68A2CA;
+  outline: 3px solid #756257;
+}
+
+.modal-button:active {
+  background-color: #68A2CA;
+  outline: none;
+  opacity: 0.3;
+}
