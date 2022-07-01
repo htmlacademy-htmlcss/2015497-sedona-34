@@ -1190,6 +1190,10 @@ body {
   background-color: #F2F2F2;
 }
 
+.departure-modal-date {
+  margin-left: 36px;
+}
+
 .modal-date::placeholder {
   font-family: "PT Sans";
   font-weight: 400;
@@ -1197,6 +1201,26 @@ body {
   line-height: 21px;
   color: #000;
 }
+
+.modal-date:hover {
+  background-color: #E6E6E6;
+}
+
+.modal-date:focus {
+  background-color: #E6E6E6;
+  outline: 3px solid #83B3D3;
+}
+
+.modal-date:active {
+  background-color: #FFF;
+  outline: 2px solid #000000;
+}
+
+
+
+
+
+
 
 .modal-button {
   padding: 12px 26px;
