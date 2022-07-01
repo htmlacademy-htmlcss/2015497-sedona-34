@@ -226,24 +226,24 @@
             <label class="modal-lable">Дата заезда:
               <input name="check-in-date" type="text" class="modal-date" placeholder="27 апреля 2020">
             </label>
-            <lable class="modal-lable">Дата выезда:
+            <label class="modal-lable">Дата выезда:
               <input name="departure-date" type="text" class="modal-date departure-modal-date"
                 placeholder="1 сентября 2021">
-            </lable>
+            </label>
             <div class="modal-counter-wrapper">
-              <label name="adult-counter" class="modal-lable">Взрослые:</label>
-              <div class="adult-counter">
+              <label for="adult" name="adult-counter" class="modal-lable">Взрослые:</label>
+              <div class="item-counter-wrapper item-counter-wrapper-adult">
                 <span class="visually-hidden">Кнопка уменьшает количество взрослых</span>
                 <button type="button" class="minus-adult-counter"></button>
-                <input name="counter-result" type="text" class="counter-result" placeholder="2">
+                <input name="counter-result" id="adult" type="text" class="counter-result" placeholder="2">
                 <span class="visually-hidden">Кнопка увеличивает количество взрослых</span>
                 <button type="button" class="plus-adult-counter"></button>
               </div>
-              <label name="child-counter" class="modal-lable">Взрослые:</label>
-              <div class="child-counter">
+              <label for="child" name="child-counter" class="modal-lable">Дети:</label>
+              <div class="item-counter-wrapper item-counter-wrapper-child">
                 <span class="visually-hidden">Кнопка уменьшает количество детей</span>
                 <button type="button" class="minus-child-counter"></button>
-                <input name="counter-result" type="text" class="counter-result" placeholder="1">
+                <input name="counter-result" id="child" type="text" class="counter-result" placeholder="1">
                 <span class="visually-hidden">Кнопка увеличивает количество детей</span>
                 <button type="button" class="plus-child-counter"></button>
               </div>

@@ -1174,6 +1174,7 @@ body {
 }
 
 .modal-counter-wrapper {
+  display: flex;
   margin-bottom: 40px;
 }
 
@@ -1238,6 +1239,16 @@ body {
 
 
 /* Cчетчики */
+.item-counter-wrapper {
+  display: flex;
+  width: 133px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #F2F2F2;
+}
+
+
+
 
 
 
