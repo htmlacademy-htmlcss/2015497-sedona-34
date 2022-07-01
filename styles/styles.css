@@ -1157,3 +1157,27 @@ body {
   line-height: 36px;
   text-transform: uppercase;
 }
+
+.modal-lable {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+
+
+
+.modal-button {
+  padding: 12px 26px;
+  width: 575px;
+  background-color: #83B3D3;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFF;
+}
