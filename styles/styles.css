@@ -722,8 +722,14 @@ body {
   box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
  }
 
+ .toggle-min {
+  top: -9px;
+ }
 
-
+ .toggle-max {
+  top: -9px;
+  left: 228px;
+ }
 
 
 /* Кнопки сортировки */
