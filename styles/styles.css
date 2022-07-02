@@ -1237,7 +1237,6 @@ body {
   outline: 2px solid #000000;
 }
 
-/* Отрегулировать вертикальные отступы */
 /* Cчетчики    */
 .modal-lable-adult {
   margin-top: 10px;
@@ -1284,7 +1283,7 @@ body {
 
 
 
-
+/* Кнопка модального окна */
 .modal-button {
   padding: 12px 26px;
   width: 575px;
