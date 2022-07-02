@@ -1295,23 +1295,49 @@ body {
   width: calc(100%/3);
   padding: 0;
   border: none;
+  background-color: #F2F2F2;
 }
 
 .counter-result::placeholder {
   font-family: "PT Sans";
-  color: #000;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
+  color: #000;
   text-align: center;
 }
 
+/* Состояние кнопок счетчиков */
 
+.button-counter:hover {
+  background-color: #fff;
+}
 
+.button-counter:hover svg {
+  fill: #000;
+}
+
+.button-counter:focus {
+  background-color: #fff;
+  outline: 3px solid #83B3D3;
+}
+
+.button-counter:focus svg {
+  fill: #000;
+ }
+
+ .button-counter:active{
+  outline: none;
+ }
+
+ .button-counter:active svg {
+  fill: rgba(0, 0, 0, 0.2);
+ }
 
 
 
 /* Кнопка модального окна */
+
 .modal-button {
   padding: 12px 26px;
   width: 575px;
