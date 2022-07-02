@@ -670,18 +670,11 @@ body {
   margin-bottom: 34px;
 }
 
-.filter-button-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 60px;
-  width: 161px;
-}
-
 .control-label {
   color: #FFFFFF;
 }
+
+
 
 
 /* Range price */
@@ -793,6 +786,15 @@ body {
 
 
 /* Кнопки сортировки */
+
+.filter-button-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+  width: 161px;
+}
 
 .filter-button {
   margin-bottom: 20px;
