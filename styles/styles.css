@@ -1254,7 +1254,7 @@ body {
 
 .modal-lable-child {
   margin-top: 10px;
-  margin-right: 50px;
+  margin-right: 43px;
   margin-bottom: 0;
 }
 
@@ -1378,7 +1378,11 @@ body {
 /* Тултип */
 
 .tooltip {
-
+  position: absolute;
+  margin-right: 18px;
+  margin-left: 0;
+  width: 25px;
+  height: 25px;
 }
 
 .tooltop-toogle {
@@ -1401,13 +1405,16 @@ body {
 
 .tootip-text {
   display: block;
+  position: absolute;
+  left: -152px;
   box-sizing: border-box;
   width: 256px;
+  margin-top: 15px;
   padding: 15px 18px 18px 22px;
   border-radius: 10px;
   font-size: 16px;
   line-height: 20px;
-  background-color: #333333;
+  background-color: #333;
   color: #FFF;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
