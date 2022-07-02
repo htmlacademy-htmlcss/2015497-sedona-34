@@ -698,7 +698,7 @@ input[type="radio"] {
 }
 
 input[type="checkbox"]:hover + .control-mark-checkbox {
-  background-color: rgba(255, 255, 255, 0.6);;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 input[type="checkbox"]:focus + .control-mark-checkbox {
@@ -707,8 +707,31 @@ input[type="checkbox"]:focus + .control-mark-checkbox {
 }
 
 input[type="checkbox"]:active + .control-mark-checkbox {
-  background-color: rgba(255, 255, 255, 0.3);;
+  background-color: rgba(255, 255, 255, 0.3);
 }
+
+input[type="checkbox"]:checked + .control-mark-checkbox::before {
+  position: absolute;
+  content: "";
+  left: 7px;
+  bottom: 9px;
+  width: 10px;
+  height: 2px;
+  background-color: #3F5E72;
+  transform: rotate(-44deg);
+}
+
+input[type="checkbox"]:checked + .control-mark-checkbox::after {
+  position: absolute;
+  content: "";
+  left: 4px;
+  bottom: 7px;
+  width: 6px;
+  height: 2px;
+  background-color: #3F5E72;
+  transform: rotate(50deg);
+}
+
 
 
 
