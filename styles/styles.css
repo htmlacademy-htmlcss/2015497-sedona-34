@@ -1167,7 +1167,7 @@ body {
 .modal-form {
   display: flex;
   flex-direction: column;
-  }
+}
 
 .modal-lable {
   margin-bottom: 40px;
@@ -1266,22 +1266,22 @@ body {
   border: none;
   outline: none;
   cursor: pointer;
-  background-color:#F2F2F2;
- }
+  background-color: #F2F2F2;
+}
 
- .button-counter-minus svg {
+.button-counter-minus svg {
   position: absolute;
   top: 50%;
   left: 15px;
   fill: rgba(0, 0, 0, 0.3);
- }
+}
 
- .button-counter-plus svg {
+.button-counter-plus svg {
   position: absolute;
   top: 18px;
   left: 15px;
   fill: rgba(0, 0, 0, 0.3);
- }
+}
 
 .button-counter-minus {
   border-radius: 4px 0 0 4px;
@@ -1324,16 +1324,15 @@ body {
 
 .button-counter:focus svg {
   fill: #000;
- }
+}
 
- .button-counter:active{
+.button-counter:active {
   outline: none;
- }
+}
 
- .button-counter:active svg {
+.button-counter:active svg {
   fill: rgba(0, 0, 0, 0.2);
- }
-
+}
 
 
 /* Кнопка модального окна */
