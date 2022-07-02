@@ -1256,28 +1256,45 @@ body {
   margin-right: 56px;
   min-width: 133px;
   height: 50px;
-  background-color: #F2F2F2;
 }
 
+
 .button-counter {
+  position: relative;
   width: calc(100%/3);
   padding: 0;
   border: none;
-  outline: 1px solid #FFF;
+  outline: none;
   cursor: pointer;
-  opacity: 0.3;
-}
+  background-color:#F2F2F2;
+ }
+
+ .button-counter-minus svg {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  fill: rgba(0, 0, 0, 0.3);
+ }
+
+ .button-counter-plus svg {
+  position: absolute;
+  top: 18px;
+  left: 15px;
+  fill: rgba(0, 0, 0, 0.3);
+ }
 
 .button-counter-minus {
   border-radius: 4px 0 0 4px;
-  background: url(../images/icons/) no-repeat 50% 50%;
-
 }
 
 .button-counter-plus {
   border-radius: 0 4px 4px 0;
-
 }
+
+
+
+
+
 
 
 
@@ -1285,9 +1302,6 @@ body {
   width: calc(100%/3);
   border: none;
 }
-
-
-
 
 
 
