@@ -698,6 +698,7 @@ body {
   padding: 14px 0 13px 19px;
   border: 2px solid #FFFFFF;
   background-color: transparent;
+  outline: none;
  }
 
  .range-input-min-price {
@@ -709,6 +710,21 @@ body {
   border-radius: 0 4px 4px 0;
   border-left: 1px solid #FFFFFF;
  }
+
+ .range-input:hover {
+  border-color: rgba(242, 242, 242, 0.6);
+ }
+
+.range-input:focus {
+  border-color: #FFF;
+  box-shadow: 0 0 0 3px #81B3D2,
+              inset 0 0 0 3px #81B3D2;
+}
+
+.range-input:active {
+  border: 2px solid #FFFFFF;
+  background-color: #756257;
+}
 
  .catalog-filter-label {
   position: absolute;
