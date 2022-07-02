@@ -684,6 +684,48 @@ body {
 }
 
 
+/* Range price */
+
+.range-wrapper-inputs {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.range-input {
+  width: calc(100%/2);
+  padding: 14px 0 13px 19px;
+  border: 2px solid #FFFFFF;
+  background-color: transparent;
+ }
+
+ .range-input-min-price {
+  border-radius: 4px 0 0 4px;
+  border-right: 1px solid #FFFFFF;
+ }
+
+ .range-input-max-price {
+  border-radius: 0 4px 4px 0;
+  border-left: 1px solid #FFFFFF;
+ }
+
+ .catalog-filter-label {
+  position: absolute;
+  top: 25%;
+  color: #FFF;
+  opacity: 0.3;
+ }
+
+ .catalog-filter-label-min-price {
+  left: 112px;
+ }
+
+ .catalog-filter-label-max-price {
+  right: 17px;
+ }
+
+
 /* Range bar */
 
 .range-scale {
