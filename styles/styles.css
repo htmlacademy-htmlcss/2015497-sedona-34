@@ -1265,14 +1265,18 @@ body {
   border: none;
   outline: 1px solid #FFF;
   cursor: pointer;
+  opacity: 0.3;
 }
 
 .button-counter-minus {
   border-radius: 4px 0 0 4px;
+  background: url(../images/icons/) no-repeat 50% 50%;
+
 }
 
 .button-counter-plus {
   border-radius: 0 4px 4px 0;
+
 }
 
 
