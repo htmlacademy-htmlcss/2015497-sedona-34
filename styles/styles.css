@@ -1432,14 +1432,14 @@ body {
 }
 
 .tooltip-text::before {
-  content:'';
+  content: '';
   background-image: url("../images/icons/arrow-tooltip.svg");
   width: 19px;
   height: 9px;
-  position:absolute;
+  position: absolute;
   top: -9px;
-  left:0;
-  right:0;
+  left: 0;
+  right: 0;
   margin-left: auto;
   margin-right: auto;
 }
