@@ -1291,15 +1291,9 @@ body {
   border-radius: 0 4px 4px 0;
 }
 
-
-
-
-
-
-
-
 .counter-result {
   width: calc(100%/3);
+  padding: 0;
   border: none;
 }
 
