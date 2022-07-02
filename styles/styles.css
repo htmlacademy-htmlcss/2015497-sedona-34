@@ -674,6 +674,18 @@ body {
   color: #FFFFFF;
 }
 
+input[type="checkbox"],
+input[type="radio"] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.control {
+  position: relative;
+  display: block;
+  margin-left: 40px;
+}
 
 
 
