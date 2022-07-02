@@ -698,6 +698,8 @@ body {
   padding: 14px 0 13px 19px;
   border: 2px solid #FFFFFF;
   background-color: transparent;
+  font: inherit;
+  color: #FFF;
   outline: none;
  }
 
