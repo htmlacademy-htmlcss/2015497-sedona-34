@@ -1297,6 +1297,15 @@ body {
   border: none;
 }
 
+.counter-result::placeholder {
+  font-family: "PT Sans";
+  color: #000;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: center;
+}
+
 
 
 
