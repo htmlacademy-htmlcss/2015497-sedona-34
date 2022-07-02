@@ -687,6 +687,30 @@ input[type="radio"] {
   margin-left: 40px;
 }
 
+.control-mark-checkbox {
+  position: absolute;
+  left: -40px;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: #FFF;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:hover + .control-mark-checkbox {
+  background-color: rgba(255, 255, 255, 0.6);;
+}
+
+input[type="checkbox"]:focus + .control-mark-checkbox {
+  background-color: rgba(255, 255, 255, 0.6);
+  outline: 3px solid #83B3D3;
+}
+
+input[type="checkbox"]:active + .control-mark-checkbox {
+  background-color: rgba(255, 255, 255, 0.3);;
+}
+
+
 
 
 /* Range price */
