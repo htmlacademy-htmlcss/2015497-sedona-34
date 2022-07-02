@@ -1158,6 +1158,8 @@ body {
 }
 
 .modal-lable {
+  height: 50px;
+  margin-bottom: 40px;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -1169,11 +1171,6 @@ body {
 .modal-form {
   display: flex;
   flex-direction: column;
-}
-
-.modal-lable {
-  min-height: 50px;
-  margin-bottom: 40px;
 }
 
 .modal-counter-wrapper {
@@ -1254,7 +1251,7 @@ body {
 
 .modal-lable-child {
   margin-top: 10px;
-  margin-right: 43px;
+  margin-right: 25px;
   margin-bottom: 0;
 }
 
@@ -1264,7 +1261,6 @@ body {
   min-width: 133px;
   height: 50px;
 }
-
 
 .button-counter {
   position: relative;
@@ -1379,8 +1375,9 @@ body {
 
 .tooltip {
   position: absolute;
-  margin-right: 18px;
-  margin-left: 0;
+  top: 355px;
+  right: 222px;
+  z-index: 1;
   width: 25px;
   height: 25px;
 }
@@ -1388,6 +1385,7 @@ body {
 .tooltop-toogle {
   display: block;
   border: none;
+  height: 25px;
   background-color: transparent;
   padding: 0;
   margin: 0;
@@ -1406,7 +1404,7 @@ body {
 .tootip-text {
   display: block;
   position: absolute;
-  left: -152px;
+  left: -115px;
   box-sizing: border-box;
   width: 256px;
   margin-top: 15px;
