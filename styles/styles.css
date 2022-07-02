@@ -1388,3 +1388,13 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.tooltop-toogle svg {
+  width: 25px;
+  height: 25px;
+  fill: #83B3D3;
+}
+
+.tooltop-toogle:hover svg {
+  fill: #68A2CA;
+}
