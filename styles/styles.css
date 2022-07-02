@@ -1163,13 +1163,16 @@ body {
   line-height: 26px;
 }
 
+
 /* Поля формы модального окна*/
+
 .modal-form {
   display: flex;
   flex-direction: column;
 }
 
 .modal-lable {
+  min-height: 50px;
   margin-bottom: 40px;
 }
 
@@ -1201,7 +1204,9 @@ body {
   color: #000;
 }
 
+
 /* Подписи к полям формы */
+
 .modal::before {
   position: absolute;
   content: "Мы не можем отправить вас в прошлое.";
@@ -1222,7 +1227,9 @@ body {
   color: #333;
 }
 
+
 /* Состояние полей формы */
+
 .modal-date:hover {
   background-color: #E6E6E6;
 }
