@@ -1382,7 +1382,7 @@ body {
   height: 25px;
 }
 
-.tooltop-toogle {
+.tooltip-toogle {
   display: block;
   border: none;
   height: 25px;
@@ -1391,18 +1391,18 @@ body {
   margin: 0;
 }
 
-.tooltop-toogle svg {
+.tooltip-toogle svg {
   width: 25px;
   height: 25px;
   fill: #83B3D3;
 }
 
-.tooltop-toogle:hover svg {
+.tooltip-toogle:hover svg {
   fill: #68A2CA;
 }
 
-.tootip-text {
-  display: block;
+.tooltip-text {
+  display: none;
   position: absolute;
   left: -115px;
   box-sizing: border-box;
@@ -1415,4 +1415,9 @@ body {
   background-color: #333;
   color: #FFF;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.tooltip-toogle:hover + .tooltip-text,
+.tooltip-toogle:focus + .tooltip-text {
+  display: block;
 }
