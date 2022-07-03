@@ -92,21 +92,13 @@ body {
   color: #000000;
 }
 
-.navigation-link-current-index::before {
+.navigation-current-link::after {
   position: absolute;
   z-index: 1;
   content: "";
-  top: 64px;
-  width: 68px;
-  height: 2px;
-  background-color: #756257;
-}
-
-.navigation-link-current-inner::before {
-  position: absolute;
-  content: "";
-  top: 64px;
-  width: 93px;
+  bottom: -2px;
+  left: 17px;
+  width: calc(100% - 34px);
   height: 2px;
   background-color: #756257;
 }
@@ -114,6 +106,12 @@ body {
 .navigation-user .navigation-link {
   min-width: 20px;
   padding: 24px 12px;
+}
+
+.search-icon,
+.favorite-icon {
+  display: block;
+  box-sizing: border-box;
 }
 
 .header-button {
@@ -151,19 +149,8 @@ body {
   background-color: #E5E5E5;
 }
 
-.navigation-item-search .navigation-link {
-  background-image: url(../images/icons/search.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 18px 18px;
-}
-
 .navigation-item-favorite .navigation-link {
   position: relative;
-  background-image: url(../images/icons/favorite.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 18px 17px;
   margin-right: 20px;
 }
 
@@ -238,89 +225,66 @@ body {
   padding: 0;
 }
 
-.advantages-item-images {
-  display: flex;
-  max-width: 100%;
-  min-height: 384px;
-}
-
-.advantages-photo img {
-  display: block;
-}
-
 .advantages-item {
   display: flex;
   width: 400px;
   min-height: 384px;
 }
 
-.advantages-wrapper {
-  display: flex;
-  flex-direction: column;
-}
 
-.advantages-wrapper-images {
+.advantages-item-images {
+  display: flex;
+  max-width: 100%;
+  min-height: 384px;
   background-color: #82B3D3;
   color: #FFF;
 }
 
-.advantages-wrapper-house::before {
-  content: "";
-  background-image: url(../images/icons/housing.svg);
-  background-repeat: no-repeat;
-  width: 75px;
-  height: 72px;
-  margin: 80px auto 0;
-}
-
-.advantages-wrapper-food::before {
-  content: "";
-  background-image: url(../images/icons/food.svg);
-  background-repeat: no-repeat;
-  width: 74px;
-  height: 70px;
-  margin: 81px auto 0;
-}
-
-.advantages-wrapper-souvenirs::before {
-  content: "";
-  background-image: url(../images/icons/souvenirs.svg);
-  background-repeat: no-repeat;
-  width: 64px;
-  height: 76px;
-  margin: 78px auto 0;
-}
-
-.advantages-wrapper-opacity-12 {
+.advantages-item-opacity-12 {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.advantages-wrapper-opacity-20 {
+.advantages-item-opacity-20 {
   background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-photo img {
+  display: block;
+}
+
+.advantages-wrapper {
+  display: flex;
+  padding: 92px 85px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advantages-wrapper-top {
+  padding-top: 80px;
+}
+
+.advantages-wrapper-bottom {
+  padding-top: 103px;
+}
+
+.advantages-icon {
+  padding-bottom: 30px;
 }
 
 .advantages-title {
   min-width: 230px;
   margin: 0;
-  padding: 92px 85px 30px;
+  padding-bottom: 30px;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
 }
 
-.advantages-title-top {
-  padding-top: 30px;
-}
-
-.advantages-title-bottom {
-  padding-top: 103px;
-}
-
 .advantages-number {
   min-width: 230px;
   margin: 0;
-  padding: 0 85px 30px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
@@ -331,17 +295,8 @@ body {
 .advantages-discription {
   min-width: 230px;
   margin: 0;
-  padding: 0 85px 92px;
   text-align: center;
   color: #333333;
-}
-
-.advantages-discription-top {
-  padding-bottom: 81px;
-}
-
-.advantages-discription-bottom {
-  padding-bottom: 102px;
 }
 
 .advantages-discription-white {
@@ -442,7 +397,29 @@ body {
   color: #FFFFFF;
 }
 
+.subscribe-form {
+  display: flex;
+  width: 800px;
+  min-height: 60px;
+  margin: 0 auto;
+}
+
+.field {
+  flex-grow: 1;
+  padding: 20px 391px 19px 22px;
+  font: inherit;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  background-color: #F2F2F2;
+  outline: none;
+}
+
 .subscribe-button {
+  padding: 12px 15px;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  outline: none;
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
@@ -450,6 +427,21 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   background-color: #82B3D3;
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: #68A2CA;
+}
+
+.subscribe-button:active {
+  background-color: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.subscribe-button:disabled {
+  background-color: #E5E5E5;
+  cursor: auto;
 }
 
 /* Подвал */
@@ -607,20 +599,20 @@ body {
   margin-right: 25px;
 }
 
-.breadcrumbs-item:first-child::after {
+.breadcrumbs-item:not(:last-child)::after {
   position: absolute;
   top: 8px;
-  left: 22px;
+  left: 80px;
   content: "";
   width: 6px;
   height: 9px;
   background-image: url(../images/icons/arrow-breadcrumbs.svg);
 }
 
-.breadcrumbs-item:not(:first-child):not(:last-child)::after {
+.breadcrumbs-item:first-child::after {
   position: absolute;
   top: 8px;
-  left: 80px;
+  left: 22px;
   content: "";
   width: 6px;
   height: 9px;
@@ -678,6 +670,210 @@ body {
   margin-bottom: 34px;
 }
 
+.control-discription {
+  color: #FFFFFF;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.control {
+  position: relative;
+  display: block;
+  margin-left: 40px;
+}
+
+.control-mark-checkbox {
+  position: absolute;
+  left: -40px;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: #FFF;
+  cursor: pointer;
+}
+
+.control-mark-radio {
+  position: absolute;
+  left: -40px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #FFF;
+  cursor: pointer;
+}
+
+
+/* Состояния для чекбокса */
+
+input[type="checkbox"]:hover + .control-mark-checkbox {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+input[type="checkbox"]:focus + .control-mark-checkbox {
+  background-color: rgba(255, 255, 255, 0.6);
+  outline: 3px solid #83B3D3;
+}
+
+input[type="checkbox"]:active + .control-mark-checkbox {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+input[type="checkbox"]:checked + .control-mark-checkbox::before {
+  position: absolute;
+  content: "";
+  left: 7px;
+  bottom: 9px;
+  width: 10px;
+  height: 2px;
+  background-color: #3F5E72;
+  transform: rotate(-44deg);
+}
+
+input[type="checkbox"]:checked + .control-mark-checkbox::after {
+  position: absolute;
+  content: "";
+  left: 4px;
+  bottom: 7px;
+  width: 6px;
+  height: 2px;
+  background-color: #3F5E72;
+  transform: rotate(50deg);
+}
+
+
+/* Состояния для радиокнопок */
+
+input[type="radio"]:focus + .control-mark-radio {
+  box-shadow: inset 0 0 0 3px #83B3D3;
+}
+
+input[type="radio"]:checked + .control-mark-radio::before {
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #3F5E72;
+}
+
+
+/* Range price */
+
+.range-wrapper-inputs {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.range-input {
+  width: calc(100%/2);
+  padding: 14px 0 13px 19px;
+  border: 2px solid #FFFFFF;
+  background-color: transparent;
+  font: inherit;
+  color: #FFF;
+  outline: none;
+}
+
+.range-input-min-price {
+  border-radius: 4px 0 0 4px;
+  border-right: 1px solid #FFFFFF;
+}
+
+.range-input-max-price {
+  border-radius: 0 4px 4px 0;
+  border-left: 1px solid #FFFFFF;
+}
+
+.range-input:hover {
+  border-color: rgba(242, 242, 242, 0.6);
+}
+
+.range-input:focus {
+  border-color: #FFF;
+  box-shadow: 0 0 0 3px #81B3D2,
+    inset 0 0 0 3px #81B3D2;
+}
+
+.range-input:active {
+  border: 2px solid #FFFFFF;
+  background-color: #756257;
+}
+
+.catalog-filter-label {
+  position: absolute;
+  top: 25%;
+  color: #FFF;
+  opacity: 0.3;
+}
+
+.catalog-filter-label-min-price {
+  left: 112px;
+}
+
+.catalog-filter-label-max-price {
+  right: 17px;
+}
+
+
+/* Range bar */
+
+.range-scale {
+  position: relative;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.range-bar {
+  position: absolute;
+  height: 4px;
+  background-color: #fff;
+}
+
+.range-toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.range-toggle:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.range-toggle:focus {
+  outline: 3px solid #83B3D3;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.range-toggle:active {
+  outline: 2px solid #83B3D3;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+}
+
+.toggle-min {
+  top: -9px;
+}
+
+.toggle-max {
+  top: -9px;
+  left: 218px;
+}
+
+
+/* Кнопки сортировки */
+
 .filter-button-wrapper {
   display: flex;
   flex-direction: column;
@@ -685,10 +881,6 @@ body {
   align-items: center;
   margin-top: 60px;
   width: 161px;
-}
-
-.control-label {
-  color: #FFFFFF;
 }
 
 .filter-button {
@@ -755,7 +947,6 @@ body {
 }
 
 .sort-wrapper {
-  position: relative;
   display: flex;
   align-items: center;
   max-width: 1060px;
@@ -771,32 +962,22 @@ body {
   border-radius: 4px;
   appearance: none;
   outline: none;
+  background: url(../images/icons/arrow-select.svg) no-repeat 258px 50%;
 }
 
-.sort-wrapper svg {
-  position: absolute;
-  left: 787px;
-  width: 12px;
-  height: 7px;
-  fill: #000000;
-}
 
 .select-control:hover,
 .select-control:focus {
-  border: 2px solid #68A2CA;
+  border-color: #68A2CA;
 }
 
 .select-control:active {
-  border: 2px solid #3F5E72;
+  border-color: #3F5E72;
 }
 
 .select-control:disabled {
-  border: 2px solid rgba(0, 0, 0, 0.3);
-  color: rgba(0, 0, 0, 0.3);
-}
-
-.select-control:disabled + svg {
-  fill: rgba(0, 0, 0, 0.3);
+  border-color: rgba(0, 0, 0, 0.3);
+  opacity: 0.3;
 }
 
 .button-sort-wrapper {
@@ -1061,35 +1242,23 @@ body {
   border: 2px solid #E5E5E5;
   border-radius: 4px;
   color: #333333;
+  background: url(../images/icons/arrow-select.svg) no-repeat 128px 50%;
   appearance: none;
   outline: none;
 }
 
-.pagination-wrapper svg {
-  position: absolute;
-  top: 26px;
-  right: 26px;
-  width: 12px;
-  height: 7px;
-  fill: #000000;
-}
-
 .select-control-amount:hover,
 .select-control-amount:focus {
-  border: 2px solid #68A2CA;
+  border-color: #68A2CA;
 }
 
 .select-control-amount:active {
-  border: 2px solid #3F5E72;
+  border-color: #3F5E72;
 }
 
 .select-control-amount:disabled {
   border: 2px solid rgba(0, 0, 0, 0.3);
-  color: rgba(0, 0, 0, 0.3);
-}
-
-.select-control-amount:disabled + svg {
-  fill: rgba(0, 0, 0, 0.3);
+  opacity: 0.3;
 }
 
 .pagination-link-current {
@@ -1107,4 +1276,370 @@ body {
 
 .subscribe-discription-inner {
   color: #333333;
+}
+
+/* Модально окно */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(242, 242, 242, 0.8);
+}
+
+.overlay-close {
+  display: none;
+}
+
+.modal {
+  position: relative;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 62px 70px 70px;
+  width: 715px;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+.modal-close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  margin: 54px 70px 0 0;
+  width: 53px;
+  height: 53px;
+  background-color: #F2F2F2;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.modal-close-button::after,
+.modal-close-button::before {
+  position: absolute;
+  top: center;
+  left: 20px;
+  width: 13px;
+  height: 2px;
+  background-color: #000;
+  content: "";
+}
+
+.modal-close-button::after {
+  transform: rotate(45deg);
+}
+
+.modal-close-button::before {
+  transform: rotate(-45deg);
+}
+
+.modal-close-button:hover {
+  background-color: #E6E6E6;
+}
+
+.modal-close-button:focus {
+  background-color: #F2F2F2;
+  outline: 3px solid #83B3D3;
+}
+
+.modal-close-button:active {
+  background-color: #E6E6E6;
+  outline: none;
+  opacity: 0.3;
+}
+
+.modal-title {
+  margin: 0;
+  padding-bottom: 63px;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.modal-lable {
+  height: 50px;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+
+/* Поля формы модального окна*/
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-counter-wrapper {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.modal-date {
+  box-sizing: border-box;
+  width: 416px;
+  margin-left: 42px;
+  padding: 15px 270px 14px 19px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: url(../images/icons/calendar-modal.svg) no-repeat 386px 50% #F2F2F2;
+}
+
+.departure-modal-date {
+  margin-left: 36px;
+}
+
+.modal-date::placeholder {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000;
+}
+
+
+/* Подписи к полям формы */
+
+.modal::before {
+  position: absolute;
+  content: "Мы не можем отправить вас в прошлое.";
+  top: 211px;
+  left: 227px;
+  width: 420px;
+  font-size: 16px;
+  color: #FF5757;
+}
+
+.modal::after {
+  position: absolute;
+  content: "На эти даты есть свободные номера. Пока есть.";
+  top: 301px;
+  left: 227px;
+  width: 420px;
+  font-size: 16px;
+  color: #333;
+}
+
+
+/* Состояние полей формы */
+
+.modal-date:hover {
+  background-color: #E6E6E6;
+}
+
+.modal-date:focus {
+  background-color: #E6E6E6;
+  outline: 3px solid #83B3D3;
+}
+
+.modal-date:active {
+  background-color: #FFF;
+  outline: 2px solid #000000;
+}
+
+/* Cчетчики    */
+.modal-lable-adult {
+  margin-top: 10px;
+  margin-right: 64px;
+  margin-bottom: 0;
+  height: 26px;
+}
+
+.modal-lable-child {
+  margin-top: 10px;
+  margin-right: 25px;
+  margin-bottom: 0;
+}
+
+.item-counter-wrapper {
+  display: flex;
+  margin-right: 56px;
+  min-width: 133px;
+  height: 50px;
+}
+
+.button-counter {
+  position: relative;
+  width: calc(100%/3);
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #F2F2F2;
+}
+
+.button-counter-minus svg {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  fill: rgba(0, 0, 0, 0.3);
+}
+
+.button-counter-plus svg {
+  position: absolute;
+  top: 18px;
+  left: 15px;
+  fill: rgba(0, 0, 0, 0.3);
+}
+
+.button-counter-minus {
+  border-radius: 4px 0 0 4px;
+}
+
+.button-counter-plus {
+  border-radius: 0 4px 4px 0;
+}
+
+.counter-result {
+  width: calc(100%/3);
+  padding: 0;
+  border: none;
+  background-color: #F2F2F2;
+}
+
+.counter-result::placeholder {
+  font-family: "PT Sans";
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+}
+
+/* Состояние кнопок счетчиков */
+
+.button-counter:hover {
+  background-color: #fff;
+}
+
+.button-counter:hover svg {
+  fill: #000;
+}
+
+.button-counter:focus {
+  background-color: #fff;
+  outline: 3px solid #83B3D3;
+}
+
+.button-counter:focus svg {
+  fill: #000;
+}
+
+.button-counter:active {
+  outline: none;
+}
+
+.button-counter:active svg {
+  fill: rgba(0, 0, 0, 0.2);
+}
+
+
+/* Кнопка модального окна */
+
+.modal-button {
+  padding: 12px 26px;
+  width: 575px;
+  background-color: #83B3D3;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.modal-button:hover {
+  background-color: #68A2CA;
+}
+
+.modal-button:focus {
+  background-color: #68A2CA;
+  outline: 3px solid #756257;
+}
+
+.modal-button:active {
+  background-color: #68A2CA;
+  outline: none;
+  opacity: 0.3;
+}
+
+
+/* Тултип */
+
+.tooltip {
+  position: absolute;
+  top: 355px;
+  right: 222px;
+  z-index: 1;
+  width: 25px;
+  height: 25px;
+}
+
+.tooltip-toogle {
+  display: block;
+  border: none;
+  outline: none;
+  height: 25px;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+.tooltip-toogle svg {
+  width: 25px;
+  height: 25px;
+  fill: #83B3D3;
+}
+
+.tooltip-toogle:hover svg {
+  fill: #68A2CA;
+}
+
+.tooltip-toogle:focus svg {
+  fill: #68A2CA;
+}
+
+.tooltip-text {
+  display: none;
+  position: absolute;
+  left: -115px;
+  box-sizing: border-box;
+  width: 256px;
+  margin-top: 15px;
+  padding: 15px 18px 18px 22px;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #333;
+  color: #FFF;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.tooltip-toogle:hover + .tooltip-text,
+.tooltip-toogle:focus + .tooltip-text {
+  display: block;
+}
+
+.tooltip-text::before {
+  content: '';
+  background-image: url("../images/icons/arrow-tooltip.svg");
+  width: 19px;
+  height: 9px;
+  position: absolute;
+  top: -9px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
