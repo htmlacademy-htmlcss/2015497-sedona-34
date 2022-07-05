@@ -1520,16 +1520,11 @@ input[type="radio"]:checked + .control-mark-radio::before {
 
 /* Состояние кнопок счетчиков */
 
-.button-counter:hover {
-  background-color: #fff;
-}
-
 .button-counter:hover svg {
   fill: #000;
 }
 
 .button-counter:focus {
-  background-color: #fff;
   outline: 3px solid #83B3D3;
 }
 
