@@ -729,7 +729,7 @@ input[type="checkbox"]:checked + .control-mark-checkbox::before {
   bottom: 9px;
   width: 10px;
   height: 2px;
-  background-color: 3f5e72;
+  background-color: #3f5e72;
   content: "";
   transform: rotate(-44deg);
 }
