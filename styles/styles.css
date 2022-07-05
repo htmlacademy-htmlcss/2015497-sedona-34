@@ -1325,7 +1325,6 @@ input[type="radio"]:checked + .control-mark-radio::before {
 .modal-close-button::after,
 .modal-close-button::before {
   position: absolute;
-  top: center;
   left: 20px;
   width: 13px;
   height: 2px;
