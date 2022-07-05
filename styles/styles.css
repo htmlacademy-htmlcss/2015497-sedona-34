@@ -19,8 +19,8 @@ html {
 }
 
 body {
-  margin: 0;
   display: flex;
+  margin: 0;
   flex-direction: column;
   min-height: 100%;
   font-family: "PT Sans", Arial, sans-serif;
@@ -95,11 +95,11 @@ body {
 .navigation-current-link::after {
   position: absolute;
   z-index: 1;
-  content: "";
-  transform: translate(-100%, 45px);
   width: calc(100% - 34px);
   height: 2px;
   background-color: #756257;
+  content: "";
+  transform: translate(-100%, 45px);
 }
 
 .navigation-user .navigation-link {
@@ -155,20 +155,20 @@ body {
 
 .favorite-counter {
   position: absolute;
+  top: 15px;
+  left: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 15px;
-  left: 24px;
   width: 20px;
   height: 20px;
   margin: auto;
   font-size: 10px;
   font-weight: 400;
   line-height: 13px;
+  color: #ffffff;
   background-color: #7db54f;
   border-radius: 50%;
-  color: #ffffff;
 }
 
 /* Hero */
@@ -183,11 +183,11 @@ body {
 
 .welcome::after {
   position: absolute;
-  content: "";
   bottom: 0;
   width: 1200px;
   height: 57px;
   background-image: url(../images/divider-index.svg);
+  content: "";
 }
 
 .welcome img {
@@ -253,9 +253,9 @@ body {
 
 .advantages-wrapper {
   display: flex;
-  padding: 92px 85px;
   flex-direction: column;
   align-items: center;
+  padding: 92px 85px;
 }
 
 .advantages-wrapper-top {
@@ -415,10 +415,6 @@ body {
 
 .subscribe-button {
   padding: 12px 15px;
-  border: none;
-  border-radius: 0 10px 10px 0;
-  cursor: pointer;
-  outline: none;
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
@@ -426,6 +422,10 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #82b3d3;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  outline: none;
 }
 
 .subscribe-button:hover,
@@ -434,8 +434,8 @@ body {
 }
 
 .subscribe-button:active {
-  background-color: #82b3d3;
   color: rgba(255, 255, 255, 0.3);
+  background-color: #82b3d3;
 }
 
 .subscribe-button:disabled {
@@ -602,20 +602,20 @@ body {
   position: absolute;
   top: 8px;
   left: 80px;
-  content: "";
   width: 6px;
   height: 9px;
   background-image: url(../images/icons/arrow-breadcrumbs.svg);
+  content: "";
 }
 
 .breadcrumbs-item:first-child::after {
   position: absolute;
   top: 8px;
   left: 22px;
-  content: "";
   width: 6px;
   height: 9px;
   background-image: url(../images/icons/arrow-breadcrumbs.svg);
+  content: "";
 }
 
 /* Фильтр форма */
@@ -725,24 +725,24 @@ input[type="checkbox"]:active + .control-mark-checkbox {
 
 input[type="checkbox"]:checked + .control-mark-checkbox::before {
   position: absolute;
-  content: "";
   left: 7px;
   bottom: 9px;
   width: 10px;
   height: 2px;
   background-color: 3f5e72;
+  content: "";
   transform: rotate(-44deg);
 }
 
 input[type="checkbox"]:checked + .control-mark-checkbox::after {
   position: absolute;
-  content: "";
   left: 4px;
   bottom: 7px;
   width: 6px;
   height: 2px;
   background-color: #3f5e72;
   transform: rotate(50deg);
+  content: "";
 }
 
 
@@ -754,13 +754,13 @@ input[type="radio"]:focus + .control-mark-radio {
 
 input[type="radio"]:checked + .control-mark-radio::before {
   position: absolute;
-  content: "";
   top: 5px;
   left: 5px;
   width: 10px;
   height: 10px;
   border-radius: 50%;
   background-color: #3f5e72;
+  content: "";
 }
 
 
@@ -776,11 +776,11 @@ input[type="radio"]:checked + .control-mark-radio::before {
 .range-input {
   width: calc(100%/2);
   padding: 14px 0 13px 19px;
-  border: 2px solid #ffffff;
-  background-color: transparent;
   font: inherit;
   -moz-appearance: textfield;
   color: #ffffff;
+  border: 2px solid #ffffff;
+  background-color: transparent;
   outline: none;
 }
 
@@ -795,8 +795,8 @@ input[type="radio"]:checked + .control-mark-radio::before {
 }
 
 .range-input::-webkit-inner-spin-button {
-  appearance: none;
   margin: 0;
+  appearance: none;
 }
 
 .range-input:hover {
@@ -1048,9 +1048,9 @@ input[type="radio"]:checked + .control-mark-radio::before {
 .product-list::after {
   position: absolute;
   top: 942px;
-  content: "";
   width: 1055px;
   border: 1px solid #e6e6e6;
+  content: "";
 }
 
 .product-card {
@@ -1126,8 +1126,8 @@ input[type="radio"]:checked + .control-mark-radio::before {
 }
 
 .product-card-button:active {
-  background-color: #756157;
   color: rgba(255, 255, 255, 0.3);
+  background-color: #756157;
 }
 
 .product-card-button:disabled {
@@ -1419,22 +1419,22 @@ input[type="radio"]:checked + .control-mark-radio::before {
 
 .modal::before {
   position: absolute;
-  content: "Мы не можем отправить вас в прошлое.";
   top: 211px;
   left: 227px;
   width: 420px;
   font-size: 16px;
   color: #ff5757;
+  content: "Мы не можем отправить вас в прошлое.";
 }
 
 .modal::after {
   position: absolute;
-  content: "На эти даты есть свободные номера. Пока есть.";
   top: 301px;
   left: 227px;
   width: 420px;
   font-size: 16px;
   color: #333333;
+  content: "На эти даты есть свободные номера. Пока есть.";
 }
 
 
@@ -1551,16 +1551,16 @@ input[type="radio"]:checked + .control-mark-radio::before {
 .modal-button {
   padding: 12px 26px;
   width: 575px;
-  background-color: #83b3d3;
-  border-radius: 10px;
-  cursor: pointer;
-  border: none;
-  outline: none;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
   text-transform: uppercase;
   color: #ffffff;
+  background-color: #83b3d3;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
 }
 
 .modal-button:hover {
@@ -1592,12 +1592,12 @@ input[type="radio"]:checked + .control-mark-radio::before {
 
 .tooltip-toogle {
   display: block;
-  border: none;
-  outline: none;
   height: 25px;
-  background-color: transparent;
   padding: 0;
   margin: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 
 .tooltip-toogle svg {
@@ -1615,18 +1615,18 @@ input[type="radio"]:checked + .control-mark-radio::before {
 }
 
 .tooltip-text {
-  display: none;
   position: absolute;
   left: -115px;
+  display: none;
   box-sizing: border-box;
   width: 256px;
   margin-top: 15px;
   padding: 15px 18px 18px 22px;
-  border-radius: 10px;
   font-size: 16px;
   line-height: 20px;
-  background-color: #333333;
   color: #ffffff;
+  border-radius: 10px;
+  background-color: #333333;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
 
@@ -1636,15 +1636,15 @@ input[type="radio"]:checked + .control-mark-radio::before {
 }
 
 .tooltip-text::before {
-  content: '';
-  border: 18px solid transparent;
-  border-bottom: 19px solid #333333;
-  width: 0;
-  height: 0;
   position: absolute;
   top: -27px;
   left: 0;
   right: 0;
+  width: 0;
+  height: 0;
   margin-left: auto;
   margin-right: auto;
+  border: 18px solid transparent;
+  border-bottom: 19px solid #333333;
+  content: '';
 }
