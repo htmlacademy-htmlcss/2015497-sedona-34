@@ -96,8 +96,7 @@ body {
   position: absolute;
   z-index: 1;
   content: "";
-  bottom: -2px;
-  left: 17px;
+  transform: translate(-100%, 45px);
   width: calc(100% - 34px);
   height: 2px;
   background-color: #756257;
