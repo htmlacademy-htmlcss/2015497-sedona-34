@@ -327,9 +327,11 @@ body {
 }
 
 .search-button-wrapper {
+  box-sizing: border-box;
   max-width: 574px;
   min-height: 60px;
   margin: 0 auto 93px;
+  padding: 12px 15px;
   background-color: #756157;
   border-radius: 4px;
 }
@@ -338,7 +340,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 60px;
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
