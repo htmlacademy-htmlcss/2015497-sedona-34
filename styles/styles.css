@@ -991,7 +991,8 @@ input[type="radio"]:checked + .control-mark-radio::before {
 
 .button-sort-wrapper {
   display: flex;
-  max-width: 160px;
+  flex-wrap: wrap;
+  min-width: 160px;
   margin-right: auto;
 }
 
