@@ -1225,8 +1225,8 @@ input[type="radio"]:checked + .control-mark-radio::before {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60px;
-  height: 60px;
+  min-width: 60px;
+  min-height: 60px;
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
