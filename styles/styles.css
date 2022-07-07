@@ -1261,7 +1261,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
 
 .select-control-amount {
   box-sizing: border-box;
-  padding: 14px 130px 14px 20px;
+  padding: 12px 130px 14px 16px;
   min-width: 160px;
   max-height: 49px;
   margin-left: auto;
