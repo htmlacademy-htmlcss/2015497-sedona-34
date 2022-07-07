@@ -321,6 +321,8 @@ body {
 .search-discription {
   max-width: 592px;
   margin: 0 auto 56px;
+  padding-right: 15px;
+  text-indent: 15px;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
