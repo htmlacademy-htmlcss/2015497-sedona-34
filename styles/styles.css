@@ -394,7 +394,7 @@ body {
 
 .subscribe-discription {
   max-width: 475px;
-  margin: 0 auto 48px;
+  margin: 0 auto 45px;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
@@ -1303,7 +1303,6 @@ input[type="radio"]:checked + .control-mark-radio::before {
 }
 
 .subscribe-discription-inner {
-  margin-bottom: 45px;
   color: #333333;
 }
 
