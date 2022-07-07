@@ -669,7 +669,7 @@ body {
 
 .catalog-filter-group-radio {
   min-width: 146px;
-  margin-right: 175px
+  margin-right: 173px
 }
 
 .catalog-filter-group-range {
@@ -678,7 +678,7 @@ body {
 }
 
 .catalog-filter-title-range {
-  margin-bottom: 34px;
+  margin-bottom: 33px;
 }
 
 .control-discription {
@@ -787,7 +787,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
 
 .range-input {
   width: calc(100%/2);
-  padding: 14px 0 13px 19px;
+  padding: 12px 0 11px 17px;
   font: inherit;
   -moz-appearance: textfield;
   color: #ffffff;
@@ -906,6 +906,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
   padding: 14px 15px;
   width: 160px;
   min-height: 48px;
+  font-family: "PT Sans";
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -933,6 +934,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
 }
 
 .filter-button-reset {
+  font-family: "PT Sans";
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
