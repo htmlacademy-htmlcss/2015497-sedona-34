@@ -1338,7 +1338,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
   top: 0;
   right: 0;
   padding: 20px;
-  margin: 54px 70px 0 0;
+  margin: 53px 71px 0 0;
   width: 53px;
   height: 53px;
   background-color: #f2f2f2;
@@ -1351,7 +1351,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
 .modal-close-button::before {
   position: absolute;
   left: 20px;
-  width: 13px;
+  width: 16px;
   height: 2px;
   background-color: #000000;
   content: "";
@@ -1412,7 +1412,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
 .modal-date {
   box-sizing: border-box;
   width: 416px;
-  margin-left: 42px;
+  margin-left: 37px;
   padding: 15px 270px 14px 19px;
   font-size: 18px;
   line-height: 21px;
@@ -1423,7 +1423,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
 }
 
 .departure-modal-date {
-  margin-left: 36px;
+  margin-left: 32px;
 }
 
 .modal-date::placeholder {
@@ -1439,8 +1439,8 @@ input[type="radio"]:checked + .control-mark-radio::before {
 
 .modal::before {
   position: absolute;
-  top: 211px;
-  left: 227px;
+  top: 219px;
+  left: 225px;
   width: 420px;
   font-size: 16px;
   color: #ff5757;
@@ -1449,8 +1449,8 @@ input[type="radio"]:checked + .control-mark-radio::before {
 
 .modal::after {
   position: absolute;
-  top: 301px;
-  left: 227px;
+  top: 309px;
+  left: 225px;
   width: 420px;
   font-size: 16px;
   color: #333333;
@@ -1476,14 +1476,14 @@ input[type="radio"]:checked + .control-mark-radio::before {
 
 /* Cчетчики    */
 .modal-lable-adult {
-  margin-top: 10px;
+  margin-top: 12px;
   margin-right: 64px;
   margin-bottom: 0;
   height: 26px;
 }
 
 .modal-lable-child {
-  margin-top: 10px;
+  margin-top: 12px;
   margin-right: 25px;
   margin-bottom: 0;
 }
@@ -1507,15 +1507,15 @@ input[type="radio"]:checked + .control-mark-radio::before {
 
 .button-counter-minus svg {
   position: absolute;
-  top: 50%;
-  left: 15px;
+  top: 48%;
+  left: 19px;
   fill: rgba(0, 0, 0, 0.3);
 }
 
 .button-counter-plus svg {
   position: absolute;
   top: 18px;
-  left: 15px;
+  left: 12px;
   fill: rgba(0, 0, 0, 0.3);
 }
 
@@ -1530,18 +1530,16 @@ input[type="radio"]:checked + .control-mark-radio::before {
 .counter-result {
   width: calc(100%/3);
   padding: 0;
-  border: none;
-  background-color: #f2f2f2;
-}
-
-.counter-result::placeholder {
   font-family: "PT Sans";
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
   color: #000000;
   text-align: center;
+  border: none;
+  background-color: #f2f2f2;
 }
+
 
 /* Состояние кнопок счетчиков */
 
@@ -1571,6 +1569,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
 .modal-button {
   padding: 12px 26px;
   width: 575px;
+  font-family: "PT Sans";
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
