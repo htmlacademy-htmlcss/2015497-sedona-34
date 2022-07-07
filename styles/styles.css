@@ -375,7 +375,7 @@ body {
 /* Подписка */
 .subscribe {
   min-height: 411px;
-  margin-bottom: 40px;
+  margin-bottom: 46px;
   background-image: url("../images/subscribe-background.jpg");
   background-size: 100% auto;
   background-repeat: round;
@@ -393,7 +393,7 @@ body {
 
 .subscribe-discription {
   max-width: 475px;
-  margin: 0 auto 46px;
+  margin: 0 auto 48px;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
@@ -409,7 +409,7 @@ body {
 
 .field {
   flex-grow: 1;
-  padding: 20px 370px 19px 22px;
+  padding: 20px 300px 19px 22px;
   font: inherit;
   border: none;
   border-radius: 10px 0 0 10px;
@@ -453,7 +453,7 @@ body {
 .page-footer {
   display: flex;
   justify-content: space-between;
-  margin: 0 70px 30px;
+  margin: 0 70px 30px 80px;
 }
 
 .footer-social-list {
@@ -520,8 +520,6 @@ body {
 }
 
 .footer-site-logo-link {
-  margin-top: 5px;
-  margin-right: 11px;
   outline: none;
 }
 
@@ -972,7 +970,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
   display: flex;
   align-items: center;
   max-width: 1060px;
-  margin: 0 72px 56px;
+  margin: 0 72px 51px;
 }
 
 .select-control {
