@@ -94,6 +94,16 @@ body {
   color: #000000;
 }
 
+.navigation-link:hover:not(.navigation-current-link),
+.navigation-link:focus {
+  color: #756157;
+  outline: none;
+}
+
+.navigation-link:active:not(.navigation-current-link) {
+  color: rgba(117, 97, 87, 0.3);
+}
+
 .navigation-current-link::after {
   position: absolute;
   z-index: 1;
