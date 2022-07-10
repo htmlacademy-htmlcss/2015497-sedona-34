@@ -1127,6 +1127,17 @@ input[type="radio"]:disabled ~ .control-discription {
   color: #000000;
 }
 
+/* Состояния продуктовых карточек */
+.product-card-link:hover,
+.product-card-link:focus {
+  color: #756157;
+  outline: none;
+}
+
+.product-card-link:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
 .product-card-hotel {
   color: #333333;
 }
