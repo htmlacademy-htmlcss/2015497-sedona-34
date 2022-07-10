@@ -663,13 +663,13 @@ body {
 }
 
 .catalog-filter-group-checkbox {
-  min-width: 150px;
+  max-width: 149px;
   margin-right: 70px;
 }
 
 .catalog-filter-group-radio {
-  min-width: 146px;
-  margin-right: 173px
+  max-width: 144px;
+  margin-right: 175px
 }
 
 .catalog-filter-group-range {
