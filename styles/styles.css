@@ -421,7 +421,7 @@ body {
 .subscribe-button {
   padding: 12px 15px;
   min-width: 200px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
@@ -905,7 +905,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
   padding: 14px 15px;
   width: 160px;
   min-height: 48px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -933,7 +933,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
 }
 
 .filter-button-reset {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
@@ -978,7 +978,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
   padding: 14px 25px 14px 17px;
   min-width: 290px;
   margin-right: 78px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
@@ -1265,7 +1265,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
   min-width: 160px;
   max-height: 49px;
   margin-left: auto;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   border: 2px solid #e5e5e5;
@@ -1429,7 +1429,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
 }
 
 .modal-date::placeholder {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -1532,7 +1532,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
 .counter-result {
   width: calc(100%/3);
   padding: 0;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
@@ -1571,7 +1571,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
 .modal-button {
   padding: 12px 26px;
   width: 575px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
