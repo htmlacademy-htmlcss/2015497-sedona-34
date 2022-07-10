@@ -459,8 +459,9 @@ body {
 
 .footer-social-list {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
+  max-width: 123px;
   margin: 0;
   padding: 0;
   list-style-type: none;
