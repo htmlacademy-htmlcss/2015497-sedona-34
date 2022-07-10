@@ -767,6 +767,12 @@ input[type="checkbox"]:checked + .control-mark-checkbox::after {
   content: "";
 }
 
+input[type="checkbox"]:disabled + .control-mark-checkbox,
+input[type="checkbox"]:disabled ~ .control-discription {
+  opacity: 0.3;
+  cursor: auto;
+}
+
 
 /* Состояния для радиокнопок */
 
@@ -783,6 +789,12 @@ input[type="radio"]:checked + .control-mark-radio::before {
   border-radius: 50%;
   background-color: #3f5e72;
   content: "";
+}
+
+input[type="radio"]:disabled + .control-mark-radio,
+input[type="radio"]:disabled ~ .control-discription {
+  opacity: 0.3;
+  cursor: auto;
 }
 
 
