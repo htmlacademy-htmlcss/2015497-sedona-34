@@ -1228,12 +1228,12 @@ input[type="radio"]:checked + .control-mark-radio::before {
   border-radius: 4px;
 }
 
-.pagination-link:not(span):hover,
-.pagination-link:not(span):focus {
+.pagination-link:not(.pagination-link-ellipsis):hover,
+.pagination-link:not(.pagination-link-ellipsis):focus {
   background-color: #68a2ca;
 }
 
-.pagination-link:not(span):active {
+.pagination-link:not(.pagination-link-ellipsis):active {
   background-color: #82b3d3;
   color: rgba(255, 255, 255, 0.3);
 }
