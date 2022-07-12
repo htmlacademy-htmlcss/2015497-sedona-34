@@ -387,6 +387,7 @@ body {
 .subscribe {
   min-height: 411px;
   margin-bottom: 46px;
+  background-color: #42719f;
   background-image: url("../images/subscribe-background.jpg");
   background-size: 100% auto;
   background-repeat: round;
@@ -555,6 +556,7 @@ body {
 .catalog-filter {
   min-height: 403px;
   margin-bottom: 50px;
+  background-color: #63595a;
   background-image: url("../images/filter-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1332,6 +1334,7 @@ input[type="radio"]:disabled ~ .control-discription {
 /* Подписка inner */
 .subscribe-inner {
   background-image: none;
+  background-color: #ffffff;
 }
 
 .subscribe-title-inner {
