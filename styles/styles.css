@@ -119,10 +119,19 @@ body {
   padding: 22px 11px;
 }
 
-.search-icon,
-.favorite-icon {
+.header-icon {
   display: block;
   box-sizing: border-box;
+  fill: #000000;
+}
+
+.navigation-link:hover .header-icon,
+.navigation-link:focus .header-icon {
+  fill: #756157;
+}
+
+.navigation-link:active .header-icon {
+  fill: rgba(117, 97, 87, 0.3);
 }
 
 .header-button {
