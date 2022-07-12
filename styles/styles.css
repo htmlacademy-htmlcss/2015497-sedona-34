@@ -111,7 +111,7 @@ body {
   height: 2px;
   background-color: #756257;
   content: "";
-  transform: translate(-100%, 45px);
+  transform: translate(-100%, 44px);
 }
 
 .navigation-user .navigation-link {
