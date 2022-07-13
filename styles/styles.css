@@ -94,6 +94,16 @@ body {
   color: #000000;
 }
 
+.navigation-link:hover:not(.navigation-current-link),
+.navigation-link:focus {
+  color: #756157;
+  outline: none;
+}
+
+.navigation-link:active:not(.navigation-current-link) {
+  color: rgba(117, 97, 87, 0.3);
+}
+
 .navigation-current-link::after {
   position: absolute;
   z-index: 1;
@@ -101,7 +111,7 @@ body {
   height: 2px;
   background-color: #756257;
   content: "";
-  transform: translate(-100%, 45px);
+  transform: translate(-100%, 44px);
 }
 
 .navigation-user .navigation-link {
@@ -109,10 +119,19 @@ body {
   padding: 22px 11px;
 }
 
-.search-icon,
-.favorite-icon {
+.header-icon {
   display: block;
   box-sizing: border-box;
+  fill: #000000;
+}
+
+.navigation-link:hover .header-icon,
+.navigation-link:focus .header-icon {
+  fill: #756157;
+}
+
+.navigation-link:active .header-icon {
+  fill: rgba(117, 97, 87, 0.3);
 }
 
 .header-button {
@@ -180,6 +199,7 @@ body {
 .welcome {
   position: relative;
   margin: 0 auto 63px;
+  background-color: #3f5b73;
 }
 
 .welcome::after {
@@ -193,6 +213,12 @@ body {
 
 .welcome img {
   display: block;
+}
+
+.hero-title {
+  position: absolute;
+  top: 51px;
+  left: 371px;
 }
 
 .slogan-title {
@@ -377,6 +403,7 @@ body {
 .subscribe {
   min-height: 411px;
   margin-bottom: 46px;
+  background-color: #42719f;
   background-image: url("../images/subscribe-background.jpg");
   background-size: 100% auto;
   background-repeat: round;
@@ -421,7 +448,7 @@ body {
 .subscribe-button {
   padding: 12px 15px;
   min-width: 200px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
@@ -459,8 +486,9 @@ body {
 
 .footer-social-list {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
+  max-width: 123px;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -544,6 +572,7 @@ body {
 .catalog-filter {
   min-height: 403px;
   margin-bottom: 50px;
+  background-color: #63595a;
   background-image: url("../images/filter-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -662,13 +691,13 @@ body {
 }
 
 .catalog-filter-group-checkbox {
-  min-width: 150px;
+  max-width: 149px;
   margin-right: 70px;
 }
 
 .catalog-filter-group-radio {
-  min-width: 146px;
-  margin-right: 173px
+  max-width: 144px;
+  margin-right: 175px
 }
 
 .catalog-filter-group-range {
@@ -756,6 +785,12 @@ input[type="checkbox"]:checked + .control-mark-checkbox::after {
   content: "";
 }
 
+input[type="checkbox"]:disabled + .control-mark-checkbox,
+input[type="checkbox"]:disabled ~ .control-discription {
+  opacity: 0.3;
+  cursor: auto;
+}
+
 
 /* Состояния для радиокнопок */
 
@@ -772,6 +807,12 @@ input[type="radio"]:checked + .control-mark-radio::before {
   border-radius: 50%;
   background-color: #3f5e72;
   content: "";
+}
+
+input[type="radio"]:disabled + .control-mark-radio,
+input[type="radio"]:disabled ~ .control-discription {
+  opacity: 0.3;
+  cursor: auto;
 }
 
 
@@ -905,7 +946,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
   padding: 14px 15px;
   width: 160px;
   min-height: 48px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -933,7 +974,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
 }
 
 .filter-button-reset {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
@@ -978,14 +1019,14 @@ input[type="radio"]:checked + .control-mark-radio::before {
   padding: 14px 25px 14px 17px;
   min-width: 290px;
   margin-right: 78px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
   -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
   outline: none;
   background: url(../images/icons/arrow-select.svg) no-repeat 255px 50%;
 }
@@ -1102,6 +1143,17 @@ input[type="radio"]:checked + .control-mark-radio::before {
   line-height: 28px;
   text-decoration: none;
   color: #000000;
+}
+
+/* Состояния продуктовых карточек */
+.product-card-link:hover,
+.product-card-link:focus {
+  color: #756157;
+  outline: none;
+}
+
+.product-card-link:active {
+  color: rgba(117, 97, 87, 0.3);
 }
 
 .product-card-hotel {
@@ -1228,12 +1280,12 @@ input[type="radio"]:checked + .control-mark-radio::before {
   border-radius: 4px;
 }
 
-.pagination-link:not(span):hover,
-.pagination-link:not(span):focus {
+.pagination-link:not(.pagination-link-ellipsis):hover,
+.pagination-link:not(.pagination-link-ellipsis):focus {
   background-color: #68a2ca;
 }
 
-.pagination-link:not(span):active {
+.pagination-link:not(.pagination-link-ellipsis):active {
   background-color: #82b3d3;
   color: rgba(255, 255, 255, 0.3);
 }
@@ -1265,7 +1317,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
   min-width: 160px;
   max-height: 49px;
   margin-left: auto;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   border: 2px solid #e5e5e5;
@@ -1273,7 +1325,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
   color: #333333;
   background: url(../images/icons/arrow-select.svg) no-repeat 128px 50%;
   -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
   outline: none;
 }
 
@@ -1298,6 +1350,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
 /* Подписка inner */
 .subscribe-inner {
   background-image: none;
+  background-color: #ffffff;
 }
 
 .subscribe-title-inner {
@@ -1429,7 +1482,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
 }
 
 .modal-date::placeholder {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -1532,7 +1585,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
 .counter-result {
   width: calc(100%/3);
   padding: 0;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
@@ -1571,7 +1624,7 @@ input[type="radio"]:checked + .control-mark-radio::before {
 .modal-button {
   padding: 12px 26px;
   width: 575px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
