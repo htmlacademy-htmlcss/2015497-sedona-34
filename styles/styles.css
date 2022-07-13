@@ -199,6 +199,7 @@ body {
 .welcome {
   position: relative;
   margin: 0 auto 63px;
+  background-color: #3f5b73;
 }
 
 .welcome::after {
@@ -212,6 +213,12 @@ body {
 
 .welcome img {
   display: block;
+}
+
+.hero-title {
+  position: absolute;
+  top: 51px;
+  left: 371px;
 }
 
 .slogan-title {
@@ -1019,7 +1026,7 @@ input[type="radio"]:disabled ~ .control-discription {
   border: 2px solid #e5e5e5;
   border-radius: 4px;
   -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
   outline: none;
   background: url(../images/icons/arrow-select.svg) no-repeat 255px 50%;
 }
@@ -1318,7 +1325,7 @@ input[type="radio"]:disabled ~ .control-discription {
   color: #333333;
   background: url(../images/icons/arrow-select.svg) no-repeat 128px 50%;
   -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
   outline: none;
 }
 
