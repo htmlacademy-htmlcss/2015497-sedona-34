@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Антон Вешняков](https://up.htmlacademy.ru/htmlcss/34/user/2015497).
-* Наставник: [Сергей Остаповец](https://htmlacademy.ru/profile/seraphim).
+* Наставник: [Александр Сударев](https://htmlacademy.ru/profile/seraphim).
 
 ---
 
